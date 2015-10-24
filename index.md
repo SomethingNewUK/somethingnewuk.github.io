@@ -24,6 +24,6 @@ Be part of a better future. Be part of Something New.
 
 ## Allies
 
-We're building a movement for a better democracy. We already have allies; [could your party be next](/party_alliances)?
+We're building a movement for a better democracy. We already have allies; [could your party be next](/party_alliances.html)?
 
 {% include allies.html %}
