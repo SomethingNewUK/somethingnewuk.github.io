@@ -1,0 +1,17 @@
+<table id="allies" border="0">
+  <tbody>
+    {% for party in site.data.allied_parties %}
+      <tr>
+        <td style="min-width: 148px;">
+          <a href="{{party.url}}">
+            <img src="/images/allies/{{party.image}}" alt="{{party.name}}" height="128" width="128">
+          </a>
+        </td>
+        <td>
+          <h4><a href="{{party.url}}">{{party.name}}</a></h4>
+          <blockquote>"{{party.description}}"</blockquote>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
