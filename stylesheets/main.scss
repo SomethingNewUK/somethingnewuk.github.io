@@ -1,0 +1,72 @@
+---
+---
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2") format("woff2");
+}
+
+body {
+
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 18px;
+
+  h1 {
+    font-size: 2.33333em;
+    font-weight: 400;
+    
+    &::after {
+    	content: "";
+    	display: block;
+    	height: 15px;
+    	margin-top: 20px;
+    	margin-bottom: 1.5em;
+    	background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAALElEQVQIW2NkwAJKS0v/M6KLgwS7u7sZUSRggiDFcAlkQbgEuiBYApsgSAIAGVcWZWur2rIAAAAASUVORK5CYII=") repeat scroll 0% 0%;
+    }
+  }
+
+  h1, h2, h3, h4, h5, nav {
+  	font-family: "Oswald","Helvetica Narrow","Arial Narrow",sans-serif;
+  	text-transform: uppercase;
+  	line-height: 1.25em;
+  }
+
+  header {
+    text-align: center;
+    background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 15px;
+    
+    nav {
+      margin-top: 15px;
+
+      .active a {
+        color: #06F5ED !important;
+      }
+    }
+    
+    img {
+      width: 240px;
+    }
+  }
+
+  .content {
+    background: white;
+  }
+
+  footer {
+    background: black;
+    padding: 50px;
+    color: white;
+    font-size: 0.75em;
+    
+    a, a:hover {
+      color: #0B9490;
+      text-decoration: none;
+    }
+  }
+  
+}

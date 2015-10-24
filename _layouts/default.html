@@ -15,17 +15,18 @@
 
   <body>
 
-    <div class="container-fluid">
-    
-      <header class='row-fluid'>
-      </header>
+    <header>
+      <img src='/images/logo.jpg'/>
+      {% include navbar.html %}
+    </header>
 
+    <div class='container'>
       {{ content }}
-
-      <footer class='row-fluid'>
-      </footer>
-
     </div>
-            
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+
   </body>
 </html>
