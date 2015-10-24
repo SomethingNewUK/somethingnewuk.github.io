@@ -9,3 +9,5 @@ gems:
   - jekyll-sitemap
   - jemoji
   - jekyll-feed
+feed:
+  path: news.rss
