@@ -4,3 +4,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-feed
