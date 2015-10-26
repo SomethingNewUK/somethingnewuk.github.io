@@ -1,8 +1,6 @@
 ---
 title: Party Alliances
 ---
- 
-# Party Alliances 
 
 ## Allies
 
