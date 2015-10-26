@@ -12,7 +12,7 @@ title: Party Alliances
 
 To make a better future, we need to build alliances, and to pull together a wider movement.
 
-We want to work closely with other parties who share [/our values.html](our_values). If you want to be an ally, here's what it means:
+We want to work closely with other parties who share [/our values.html](/our_values.html). If you want to be an ally, here's what it means:
 
 1. On our site, we list any allied parties or independents, with logos on the front page, and a full list here.
 2. On our ["how to stand"](/standing_for_election.html) page, we also list any allied parties. Candidates can choose to dual-ticket with any of them, if they want to.
