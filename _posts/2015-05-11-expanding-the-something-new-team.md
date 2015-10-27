@@ -16,4 +16,4 @@ So, we need some new people:
 
 Also we're creating a **Technology Officer post,** responsible for looking at the code side of things, like voting apps, data publishing, website technology and manifesto tech. **Philip John**, a long-time contributor to the OpenPolitics Manifesto and Wordpress developer has agreed to take on this post.
 
-All these posts are voluntary and spare-time positions, but if you're itching to make a difference to democracy in the UK, we could really do with your help. [Sign up on the website if you're interested](/volunteer.html)!
+All these posts are voluntary and spare-time positions, but if you're itching to make a difference to democracy in the UK, we could really do with your help. [Sign up on the website if you're interested](/support.html)!

@@ -7,7 +7,7 @@ title: Something New is a political party dedicated to a vision of a better futu
 ![Paul Robinson](https://farm6.staticflickr.com/5575/15321509255_b5b88d8ba3.jpg)
 {: .pull-right}
 
-I'm [Paul Robinson](https://twitter.com/pauljrobinson), a local business-owner and Godalming resident who wants to protect our greenbelt, our natural environment and vastly improve our transportation system. I also want to improve how we do politics in this country, and make it far more representative, especially for younger people. I hope you'll [get involved](/vote.html) too, and consider standing for election where you live.
+I'm [Paul Robinson](https://twitter.com/pauljrobinson), a local business-owner and Godalming resident who wants to protect our greenbelt, our natural environment and vastly improve our transportation system. I also want to improve how we do politics in this country, and make it far more representative, especially for younger people. I hope you'll [get involved](/support.html) too, and consider standing for election where you live.
 
 ### We believe in:
 

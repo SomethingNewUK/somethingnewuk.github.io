@@ -17,4 +17,4 @@ We believe that individuals should be:
 *   Enjoy a fundamental right to **privacy** from the state or its agents.
 *   **Equal** and free from discrimination or harm on the basis of their sex, sexuality, disability, race or religion; and that a paradigm shift in attitudes is needed to achieve this.
 
-If you share our values, please [join us](/vote.html "Join Something New") and be part of Something New.
+If you share our values, please [join us](/support.html "Join Something New") and be part of Something New.
