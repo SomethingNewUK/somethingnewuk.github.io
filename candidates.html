@@ -1,0 +1,12 @@
+---
+title: Candidates
+---
+
+<ul>
+  {% for candidacy in site.data.election-data.candidacies %}
+    {% assign data = candidacy[1] %}
+    {% assign person_id = candidacy[1].memberships[0].person_id %}
+    {% assign candidate = site.data.election-data.people[person_id] %}
+    <li>{{ data.role }} for {{ data.area.name }}: {{ candidate.name }}</li>
+  {% endfor %}
+</ul>
