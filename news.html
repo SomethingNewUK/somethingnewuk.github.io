@@ -1,0 +1,16 @@
+---
+title: News
+---
+
+<dl>
+{% for post in site.posts %}
+  <dt>
+    <a href='{{post.url}}'>{{ post.title }}</a> 
+  </dt>
+  <dd>
+    <small>{{ post.date | date: '%B %d %Y' }} by {{ post.author }}</small><br/>
+    {{ post.excerpt }}
+    <a href='{{post.url}}'>Read more >></a>
+  </dd>
+{% endfor %}
+</dl>

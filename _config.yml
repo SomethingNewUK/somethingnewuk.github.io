@@ -4,6 +4,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -11,3 +17,4 @@ gems:
   - jekyll-feed
 feed:
   path: news.rss
+permalink: /news/:year/:month/:day/:title.html

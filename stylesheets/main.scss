@@ -79,3 +79,22 @@ body {
     width: 150px;
   }
 }
+
+.post {  
+  .byline {
+    padding-top: 15px;
+    color: #aaa;
+    margin-bottom: 25px;
+  }
+  .postdate {
+    text-align: center;
+    padding-right: 25px;
+    .day {
+      font-size: 70px;
+      font-family: "Oswald","Helvetica Narrow","Arial Narrow",sans-serif;
+    }
+    .month {
+      font-size: 23px
+    }
+  }
+}
