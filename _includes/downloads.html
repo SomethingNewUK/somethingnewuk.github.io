@@ -1,0 +1,9 @@
+<div class='row downloads'>
+  {% for download in site.data.downloads %}
+    <div class='col-xs-4'>
+      <strong>{{ download.title }}</strong>
+      <br/>
+      <a href='/downloads/{{ download.filename }}'><img src='/images/downloads/{{ download.image }}' alt='{{ download.title }}'/></a>
+    </div>
+  {% endfor %}
+</div>
