@@ -1,0 +1,31 @@
+---
+title: Something New is a political party dedicated to a vision of a better future for everyone in the UK
+---
+
+### Your Candidate:
+
+![Paul Robinson](https://farm6.staticflickr.com/5575/15321509255_b5b88d8ba3.jpg)
+{: .pull-right}
+
+I'm [Paul Robinson](https://twitter.com/pauljrobinson), a local business-owner and Godalming resident who wants to protect our greenbelt, our natural environment and vastly improve our transportation system. I also want to improve how we do politics in this country, and make it far more representative, especially for younger people. I hope you'll [get involved](/vote.html) too, and consider standing for election where you live.
+
+### We believe in:
+
+*   building a sustainable and progressive society for everyone's future, where nobody is left behind
+*   an open, transparent and accountable government which protects the privacy of its citizens
+*   taking the right decisions for the long term, not just tomorrow's papers
+*   rational and evidence-based policy-making, with less room for special interests and lobbying
+
+### In SW Surrey and Waverley we want to:
+
+*   provide considerable more affordable housing using existing brownfield sites, and by building upwards before we ever build out into our valuable greenbelt
+*   improve roads by making it safer to cycle or walk to our local schools or into town centres
+*   provide a bus service from each town that goes direct to the Royal Surrey Hospital 
+*   increase the frequency of weekend train services 
+*   defend our countryside from the industrial fracking of shale oil and gas
+*   ensure any increases in Councillor's allowances are directly linked to wage increases paid to Council employees
+*   have access to greater powers pushed down to local government via a fully devolved English Parliament within a federal UK
+
+Read more about our ideas in the [OpenPolitics Manifesto](http://openpolitics.org.uk/manifesto), the world's first open-source political manifesto that _anyone_ can contribute to. Come and help build a plan for a better future!
+
+[Download our leaflet here](/downloads/swsurrey.pdf)

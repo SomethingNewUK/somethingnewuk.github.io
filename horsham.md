@@ -1,0 +1,34 @@
+---
+title: Offering Horsham a choice for a brighter future in 2015
+---
+
+<iframe style="display: block; max-width: 765.2px; max-height: 431.063px;" class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2FRlVF2S8VJU4%3Fwmode%3Dtransparent%26feature%3Doembed&amp;wmode=transparent&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRlVF2S8VJU4&amp;image=http%3A%2F%2Fi.ytimg.com%2Fvi%2FRlVF2S8VJU4%2Fhqdefault.jpg&amp;key=e1208cbfb854483e8443b1ed081912ee&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" allowfullscreen="" frameborder="0" height="338" width="600"></iframe>
+
+I'm James Smith, a programmer, father, and local resident, with strong interests in science, technology and sustainability. I'm standing for Parliament in the 2015 general election because I think we need new choices, and an optimistic vision of the future.
+
+### Something New believes in:
+
+*   Using the best ideas, by building the world's first [open-source political manifesto](http://openpolitics.org.uk/manifesto) that _you_ can add to.
+*   Building a sustainable and progressive society for everyone, where nobody is left behind.
+*   An open, transparent and accountable government which protects the privacy of its citizens.
+*   Taking the right decisions for the long term, not just tomorrow's papers.
+*   Rational and evidence-based policy-making, with less room for special interests and lobbying. 
+
+### Local issues:
+
+*   Support renewable energy instead of fracking or oil drilling.
+*   Oppose expansion of Gatwick Airport (or others) due to climate harm.
+*   Encourage reform and transparency in Horsham District Council.
+*   Help communities plan the right housing developments for their needs, not just object to imposed plans.
+
+If you have ideas for Horsham, you can add them to our [open manifesto for Horsham](http://openpolitics.org.uk/manifesto/constituencies/horsham). Help build the future you want to see!
+
+[Download our Leaflet here](/downloads/horsham.pdf), and put a [poster in your window](/downloads/windowposter.pdf).
+
+### Get in touch:
+
+Email: [james.smith@somethingnew.org.uk](mailto:james.smith@somethingnew.org.uk)
+
+Twitter: [@floppy](https://twitter.com/Floppy) or [@horshamnew](https://twitter.com/horshamnew) for official campaign news
+
+Facebook: [facebook.com/somethingnewhorsham](http://facebook.com/somethingnewhorsham)
