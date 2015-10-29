@@ -1,0 +1,15 @@
+{% assign election = site.data.election-data.elections[include.election_id] %}
+{% if election.name %}
+  <h2>{{ election.name }}</h2>
+  <div class='row'>
+    
+    {% include election-candidate.html candidacy_id=election.id %}
+    
+    {% assign area_hash_name = election.id | append: "-areas" %}
+    {% for area_hash in site.data.election-data.elections[area_hash_name] %}
+      {% assign area = area_hash[1] %}
+      {% include election-candidate.html candidacy_id=area.id %}
+    {% endfor %}
+    
+  </div>
+{% endif %}

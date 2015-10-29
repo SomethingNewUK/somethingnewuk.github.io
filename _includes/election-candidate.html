@@ -1,0 +1,20 @@
+{% assign candidacy = site.data.election-data.candidacies[include.candidacy_id] %}
+
+{% if candidacy %}
+  {% assign person_id = candidacy.memberships[0].person_id %}
+  {% assign candidate = site.data.election-data.people[person_id] %}
+
+  <div class='col-sm-4 candidate'>
+
+    <div class='headshot' style='background-image: url({{ candidate.image }})'></div>
+    <p>
+      {% assign link = candidacy.links | where: "note","Campaign page" | first %}
+      
+      {% if link %}<a href='{{link.url}}'>{% endif %}
+      <strong>{{ candidate.name }}</strong><br/>
+      {{ candidacy.area.name }}
+      {% if link %}</a>{% endif %}
+    </p>
+
+  </div>
+{% endif %}

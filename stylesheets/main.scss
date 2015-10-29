@@ -70,14 +70,6 @@ body {
     }
   }
 }
-  
-div.headshot {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  background-size: contain;
-  background-position: top;
-}
 
 .downloads {
   
@@ -124,4 +116,17 @@ div.headshot {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.candidate {
+  text-align: center;
+  div.headshot {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: top;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
