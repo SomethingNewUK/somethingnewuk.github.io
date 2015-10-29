@@ -6,7 +6,7 @@ defaults:
       layout: "default"
   -
     scope:
-      path: ""
+      path: "news"
       type: "posts"
     values:
       layout: "post"
@@ -17,4 +17,4 @@ gems:
   - jekyll-feed
 feed:
   path: news.rss
-permalink: /news/:year/:month/:day/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
