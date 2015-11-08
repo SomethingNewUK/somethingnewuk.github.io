@@ -2,10 +2,12 @@
 title: Candidates
 ---
 
-{% for election_hash in site.data.election-data.elections %}
-  {% assign election_id = election_hash[0] %}
-  {% include election.html election_id=election_id %}
-{% endfor %}
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  {% for election_hash in site.data.election-data.elections %}
+    {% assign election_id = election_hash[0] %}
+    {% include election.html election_id=election_id %}
+  {% endfor %}
+</div>
 
 <!-- <h3>Allied Parliamentary Candidates</h3>
 <p>We are officially allied with a number of <a href="/party_alliances.html">other parties</a>, so if we don't have a candidate near you, take a look at them instead:</p>
