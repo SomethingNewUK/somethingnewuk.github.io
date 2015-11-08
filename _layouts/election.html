@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class='candidate well pull-right'>
+  {% assign candidacy = site.data.election-data.candidacies[page.candidacy_id] %}
+  {% assign person_id = candidacy.memberships[0].person_id %}
+  {% assign candidate = site.data.election-data.people[person_id] %}
+
+  <p>
+    <strong>{{ candidate.name }}</strong>
+  </p>
+  <div class='headshot' style='background-image: url({{ candidate.image }})'></div>
+  <p>
+    {{ candidacy.area.name }}
+  </p>
+  <p>
+    {% if candidate.contact_details | where "type", "twitter" %}
+    {% endif %}
+</div>
+
+{{content }}

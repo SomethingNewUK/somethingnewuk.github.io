@@ -10,6 +10,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "elections"
+      type: "posts"
+    values:
+      layout: "election"
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
