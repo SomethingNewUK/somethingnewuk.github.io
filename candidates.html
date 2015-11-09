@@ -2,9 +2,11 @@
 title: Candidates
 ---
 
+{% capture arr %}{% for election_hash in site.data.election-data.elections %}{% if election_hash[1].id %}{{ election_hash[0] }}|{% endif %}{% endfor %}{% endcapture %}
+{% assign elections = arr | split: '|' | sort | reverse %}
+
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  {% for election_hash in site.data.election-data.elections %}
-    {% assign election_id = election_hash[0] %}
+  {% for election_id in elections %}
     {% include election.html election_id=election_id %}
   {% endfor %}
 </div>
