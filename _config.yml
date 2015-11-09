@@ -24,3 +24,7 @@ gems:
 feed:
   path: news.rss
 permalink: /:categories/:year/:month/:day/:title.html
+github:
+  organisation: somethingnewuk
+  pages_domain: somethingnewuk.github.io
+  finances_repo: finances

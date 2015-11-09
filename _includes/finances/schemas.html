@@ -1,0 +1,45 @@
+<h2>Schemas</h2>
+{% for schema in site.data.finances.datapackage.schemas %}
+
+  <h3>{{ schema.first }}</h3>
+
+  <table class='table table-striped'>
+    <tr>
+      <th>
+        ID
+      </th>
+      <th>
+        Title
+      </th>
+      <th>
+        Description
+      </th>
+      <th>
+        Type
+      </th>
+      <th>
+        Required
+      </th>
+    </tr>
+    {% for field in schema.last.fields %}
+      <tr>
+        <td>
+          {{field.name}}
+        </td>
+        <td>
+          {{field.title}}
+        </td>
+        <td>
+          {{field.description}}
+        </td>
+        <td>
+          {{field.constraints.type | split:'#' | last }}
+        </td>
+        <td>
+          {{field.constraints.required}}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+  
+{% endfor %}

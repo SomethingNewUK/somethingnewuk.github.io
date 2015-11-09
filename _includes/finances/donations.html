@@ -1,0 +1,19 @@
+<p class='alert alert-info'>
+  Rows with unnamed donors are where we are awaiting explicit permission to publish
+  the donor's name.
+</p>
+
+<table class='table table-striped'>
+  <tr>
+    <th>Date</th>
+    <th>Donor</th>
+    <th>Amount</th>
+  </tr>
+  {% for row in data_table %}
+  <tr>
+    <td>{{row.date}}</td>
+    <td>{{row.name}}</td>
+    <td>£{{row.amount}}</td>
+  </tr>
+  {% endfor %}
+</table>

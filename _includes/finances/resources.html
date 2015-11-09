@@ -1,0 +1,52 @@
+<h2>Files</h2>
+
+<table class='table table-striped'>
+  
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Schema
+    </th>
+    <th>
+      Data
+    </th>
+    <th>
+      Download
+    </th>
+    <th>
+      Validation
+    </th>
+  </tr>
+
+  {% for resource in site.data.finances.datapackage.resources %}
+    <tr>
+      <td>
+        {{ resource.name }}
+      </td>
+      <td>
+        {{ resource.schema }}
+      </td>
+      <td>
+        <a href='{{ resource.path | split:"." | first }}.html'>
+          <i class='fa fa-search'></i>
+          View
+        </a>
+      </td>
+      <td>
+        <a href='{{resource.url}}'>
+          <i class='fa fa-cloud-download'></i>
+          CSV
+        </a>
+      </td>
+      <td>
+        {% assign csvlint = resource.links | where:"name","CSV Validation" | first %}
+        <a href='{{ csvlint.url }}'>
+          <img src="{{ csvlint.url }}.svg" alt="{{ csvlint.name }}" />
+        </a>
+      </td>
+    </tr>
+  {% endfor %}
+  
+</table>

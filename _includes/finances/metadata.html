@@ -1,0 +1,30 @@
+<dl>
+  
+  <dt>
+    License:
+  </dt>
+  <dd>
+    {% for license in site.data.finances.datapackage.licenses %}
+      <a href='{{license.url}}'>{{license.name}}</a>
+    {% endfor %}
+  </dd>
+
+  <dt>
+    Publisher:
+  </dt>
+  <dd>
+    {% for publisher in site.data.finances.datapackage.publishers %}
+      <a href='{{publisher.web}}'>{{publisher.name}}</a>
+    {% endfor %}
+  </dd>
+
+  <dt>
+    Maintainer:
+  </dt>
+  <dd>
+    {% for maintainer in site.data.finances.datapackage.maintainers %}
+      <a href='{{maintainer.web}}'>{{maintainer.name}}</a>
+    {% endfor %}
+  </dd>
+  
+</dl>
