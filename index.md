@@ -22,6 +22,8 @@ We stand candidates for election, to change the system from the inside, on an [o
 
 Be part of a better future. Be part of Something New.
 
+{% include testimonials.html %}
+
 ## Allies
 
 We're building a movement for a better democracy. We already have allies; [could your party be next](/party_alliances.html)?
