@@ -80,7 +80,7 @@ Other than that, we have no restrictions, but we also want our candidates to ill
 ## How to apply for a Something New candidacy
 
 *   Read the information above
-*   Sign up to Something New at [www.somethingnew.org.uk/join](http://www.somethingnew.org.uk/join)
+*   Sign up to Something New at [www.somethingnew.org.uk/support](/support.html)
 *   Email us at [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) telling us
     *   Your contact details
     *   Where you want to stand and for what office
