@@ -3,7 +3,7 @@
 
 # Bringing British democracy into the 21st century.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q88X6gMEdqc" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id="Q88X6gMEdqc" %}
 
 We are building a brighter future for everyone, where we can all have a say in how we run our society.
 
