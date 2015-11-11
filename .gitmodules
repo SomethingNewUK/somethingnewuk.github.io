@@ -4,3 +4,6 @@
 [submodule "_data/finances"]
 	path = _data/finances
 	url = https://github.com/SomethingNewUK/finances.git
+[submodule "manifesto"]
+	path = manifesto
+	url = https://github.com/openpolitics/manifesto.git
