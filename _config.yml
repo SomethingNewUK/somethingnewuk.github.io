@@ -16,6 +16,19 @@ defaults:
       type: "posts"
     values:
       layout: "election"
+  -
+    scope:
+      path: "manifesto"
+      type: "pages"
+    values:
+      layout: "policy"
+      editable: true
+  -
+    scope:
+      path: "manifesto/constituencies"
+      type: "pages"
+    values:
+      layout: "local_policy"
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
