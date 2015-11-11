@@ -34,7 +34,7 @@ For all candidates, we will help you set up a website that links into our campai
 
 We are open minded on policy. We won’t try to force you to support or oppose a specific policy, however, there are two forms of help we will give you.
 
-Firstly, there is the [Open Politics Manifesto](http://openpolitics.org.uk/manifesto/). This is an open space where you can choose policies you like and help develop and improve policies. The only commitment you have is to conform to our values.
+Firstly, there is our [open manifesto](/manifesto/). This is an open space where you can choose policies you like and help develop and improve policies. The only commitment you have is to conform to our values.
 
 Secondly, we will choose some of these – or some other policies – to lead on nationally. Normally we will be choosing our national “manifesto” policies for strategic reasons. This will be either to reinforce in the public mind what our values are or to differentiate us from other political parties - and of course to win publicity.
 
