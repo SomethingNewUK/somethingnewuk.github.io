@@ -22,7 +22,7 @@ We will [reform our voting system](/manifesto/elections.html#electoral-reform), 
 
 The system of democracy isn't finished. There are many things we need to improve. In the short term, we would replace the House of Lords with a [House of Citizens](/manifesto/democracy.html#house-of-lords-reform), where randomly-selected citizens inspect legislation, a bit like jury service. We would also give voters the right to [recall their representatives](/manifesto/elections.html#recall-of-representatives).
 
-Eventually, we would like the UK to be a true [direct democracy](/manifesto/elections.html#democracy-research), where anyone can vote on everything and we no longer need representatives. As voting on _everything_ is impractical, we like the idea of _liquid democracy_, where anyone can vote on anything, or they can delegate their votes on different subjects to different people. So, if you know a teacher, you might give them your vote on education; if you know a doctor, you might give them your vote on health; and so on.
+Eventually, we would like the UK to be a true [direct democracy](/manifesto/elections.html#democracy-research), where anyone can vote on everything and we no longer need representatives. As voting on _everything_ is impractical, we like the idea of _delegative democracy_, where anyone can vote on anything, or they can delegate their votes on different subjects to different people. So, if you know a teacher, you might give them your vote on education; if you know a doctor, you might give them your vote on health; and so on.
 
 We don't believe that the party system is fundamentally necessary. We are a registered party, because it's necessary at the moment, but we want to create a future where our party doesn't need to exist any more.
 
