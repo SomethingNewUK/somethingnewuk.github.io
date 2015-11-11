@@ -6,6 +6,8 @@ layout: default
   {% assign candidacy = site.data.election-data.candidacies[page.candidacy_id] %}
   {% assign person_id = candidacy.memberships[0].person_id %}
   {% assign candidate = site.data.election-data.people[person_id] %}
+  {% assign leaflet   = candidacy.links | where: "note", "Election leaflet" %}
+  {% assign twitter   = candidate.contact_details | where: "type", "twitter" %}
 
   <p>
     <strong>{{ candidate.name }}</strong>
@@ -14,9 +16,17 @@ layout: default
   <p>
     {{ candidacy.area.name }}
   </p>
-  <p>
-    {% if candidate.contact_details | where "type", "twitter" %}
-    {% endif %}
+  {% if twitter[0] %}
+    <p>
+      <a href='https://twitter.com/{{twitter[0]["value"] | replace: "@", ""}}'><i class='fa fa-twitter'></i> {{twitter[0]["value"]}}</a>
+    </p>
+  {% endif %}
+  {% if leaflet[0] %}
+    <p>
+      <a href='{{leaflet[0]["url"]}}'><i class='fa fa-cloud-download'></i> Download Leaflet</a>
+    </p>
+  {% endif %}
+  
 </div>
 
 {{content }}
