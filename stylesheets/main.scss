@@ -8,6 +8,13 @@
   src: local("Oswald Regular"), local("Oswald-Regular"), url("https://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2") format("woff2");
 }
 
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
 body {
 
   font-family: Helvetica,Arial,sans-serif;
