@@ -1,0 +1,20 @@
+.masonry {
+  
+  .masonry-item, .masonry-sizer {
+    width: 31%;
+    min-width: 300px;
+    margin: 5px;
+  }
+
+  .masonry-item {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    text-align: justify;
+    
+    &:nth-child(even) {background-color: #ccccce}
+    &:nth-child(odd) {background-color: #dfdfdd}
+  }
+  
+
+}

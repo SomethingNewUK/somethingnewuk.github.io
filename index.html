@@ -1,0 +1,42 @@
+---
+title: A new kind of political party
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+
+<div class='row'>
+  <div class="masonry js-masonry" 
+    data-masonry-options='{ "itemSelector": ".masonry-item", "columnWidth": ".masonry-sizer", "percentPosition": true }'
+    style="margin-left: auto; margin-right: auto;">
+    <div class="masonry-sizer"></div>
+    {% for principle in site.data.principles %}
+      <div class='masonry-item'>
+        <h2>{{ principle.title }}</h2>
+        <p>
+          {{principle.text}}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<h2>
+  Be part of a better future. Be part of Something New.
+</h2>
+
+<p>
+  We stand candidates for election, to change the system from the inside, on an <a href='/manifesto'>open manifesto</a> that <em>you</em> can contribute to. It will be a long and hard fight, but everything worthwhile always is.
+</p>
+
+<div class='pull-right'>
+  {% include allies.html %}
+</div>
+
+<p>
+  We're building a movement for a better democracy. We already have allies; could your party be <a href='/party_alliances.html'>next</a>?
+</p>
+
+<div class='clear'></div>
+
+{% include testimonials.html %}
+
