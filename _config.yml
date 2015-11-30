@@ -4,6 +4,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      disable_subscribe_button: false
   -
     scope:
       path: "news"

@@ -45,12 +45,13 @@
           </ul>
         </li>
         <li><a href="/downloads.html">Downloads</a></li>
-        <li>
-          <button type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#mailingListModal">
-            <i class='fa fa-bullhorn'></i> GET UPDATES
-          </button>
-        </li>
-
+        {% unless page.disable_subscribe_button %}
+          <li>
+            <button type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#mailingListModal">
+              <i class='fa fa-bullhorn'></i> GET UPDATES
+            </button>
+          </li>
+        {% endunless %}
       </ul>
         
     </div><!-- /.navbar-collapse -->
