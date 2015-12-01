@@ -1,19 +1,25 @@
 .masonry {
   
   .masonry-item, .masonry-sizer {
-    width: 31%;
-    min-width: 300px;
-    margin: 5px;
+    
+    @media (min-width: 768px) {
+      width: 350px;      
+      margin: 5px;
+    }
+    @media (max-width: 767px) {
+      width: 90%;
+      margin-bottom: 5px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 
   .masonry-item {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-radius: 5px;
     padding: 0px 10px;
     text-align: justify;
-    
-    &:nth-child(even) {background-color: #ccccce}
-    &:nth-child(odd) {background-color: #dfdfdd}
+    background-color: #dfdfdd;
   }
   
 
