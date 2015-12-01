@@ -14,18 +14,10 @@
     <div class="collapse navbar-collapse" id="bs-navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="/">Home</a></li>
-        <li class="dropdown">
-          <a href="/our_policies.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Policies <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/our_policies.html">Policies</a></li>
-            <li><a href="/our_guarantee.html">Our Guarantee</a></li>
-            <li><a href="/our_values.html">Our Values</a></li>
-          </ul>
-        </li>
-        {% include manifesto_menu.html %}
-        <li><a href="/news.html">News</a></li>
         <li><a href="/support.html">Get Involved</a></li>
+        {% include manifesto_menu.html %}
         <li><a href="/candidates.html">Candidates</a></li>
+        <li><a href="/news.html">News</a></li>
         <li class="dropdown">
           <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -33,10 +25,11 @@
             <li><a href="/contact_us.html">Contact Us</a></li>
             <li><a href="/coverage.html">Coverage</a></li>
             <li><a href="/watch_and_listen.html">Watch &amp; Listen</a></li>
+            <li><a href="/our_guarantee.html">Our Guarantee</a></li>
             <li><a href="/about/finances">Finances</a></li>
+            <li><a href="/downloads.html">Downloads</a></li>
           </ul>
         </li>
-        <li><a href="/downloads.html">Downloads</a></li>
         {% unless page.disable_subscribe_button %}
           <li>
             <button type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#mailingListModal">
