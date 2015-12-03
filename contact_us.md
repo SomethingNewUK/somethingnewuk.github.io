@@ -2,7 +2,7 @@
 title: Contact Us
 ---
 
-We think political parties should be open to fresh thinking and ideas. That's why we've helped build a completely open and non-partisan [manifesto](http://www.openpolitics.org.uk) that anyone can edit, and we hope you'll add your thoughts to it. If you'd like to [get involved](/support.html) in other ways - even better! But if you have any questions you'd like to ask us in the meantime, then we can be reached: 
+We think political parties should be open to fresh thinking and ideas. That's why we've helped build a completely open and non-partisan [manifesto](/manifesto) that anyone can edit, and we hope you'll add your thoughts to it. If you'd like to [get involved](/support.html) in other ways - even better! But if you have any questions you'd like to ask us in the meantime, then we can be reached: 
 
 ### By email:
 
