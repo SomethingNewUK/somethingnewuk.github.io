@@ -57,7 +57,10 @@ body {
     }
     
     img {
-      width: 240px;
+      height: 50px;
+      @media screen and (min-width: 480px) {
+        height: 240px;
+      } 
     }
   }
 
