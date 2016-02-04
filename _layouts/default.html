@@ -16,9 +16,12 @@
   <body>
 
     <header>
-      <img src='/images/logo.jpg' alt='Something New Logo' class='hidden-xs'/>
       {% include navbar.html %}
     </header>
+    
+    {% if page.show_hero == true %}
+      {% include hero.html %}
+    {% endif %}
 
     <div class='container'>
       {% if page.title %}

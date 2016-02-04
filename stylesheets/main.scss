@@ -17,6 +17,11 @@
 
 body {
 
+  padding-top: 50px; // avoid navbar
+  @media screen and (max-width: 768px) {
+    padding-top: 30px; // for some reason
+  }
+  
   font-family: Helvetica,Arial,sans-serif;
   font-size: 18px;
 
@@ -45,18 +50,31 @@ body {
     text-align: center;
     
     nav {
-
       .active a {
         color: #06F5ED !important;
       }
     }
 
-    @media screen and (min-width: 768px) {
-      background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
-      background-position: center;
-      background-size: cover;
+  }
+
+  .hero {
+    
+    background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    h1 {
+      padding: 5px 0px;
+      font-size: 3em;
+      margin: 15px 0px;
+      &::after {
+      	display: none;
+      }
     }
-      
+
     img {
       @media screen and (min-width: 768px) and (max-width: 991px) {
         height: 100px;
@@ -67,7 +85,6 @@ body {
         margin: 15px 0px;
       }
     }
-  
   }
 
   .content {
