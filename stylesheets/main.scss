@@ -43,25 +43,31 @@ body {
 
   header {
     text-align: center;
-    background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-top: 15px;
     
     nav {
-      margin-top: 15px;
 
       .active a {
         color: #06F5ED !important;
       }
     }
-    
-    img {
-      height: 50px;
-      @media screen and (min-width: 480px) {
-        height: 240px;
-      } 
+
+    @media screen and (min-width: 768px) {
+      background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
+      background-position: center;
+      background-size: cover;
     }
+      
+    img {
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        height: 100px;
+        margin: 5px 0px;
+      }
+      @media screen and (min-width: 992px) {
+        height: 200px;
+        margin: 15px 0px;
+      }
+    }
+  
   }
 
   .content {
