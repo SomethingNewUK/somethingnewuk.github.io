@@ -12,8 +12,10 @@ layout: default
 
   <div class='byline'>By {{ page.author }}</div>
 
-  {{ content }}
-
+  <div class='postcontent'>
+    {{ content }}
+  </div>
+  
   {% include comments.html %}
   
 </div>
