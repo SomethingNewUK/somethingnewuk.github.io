@@ -2,18 +2,19 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
       layout: "default"
       disable_subscribe_button: false
   -
     scope:
-      path: "news"
+      path: "_posts/news"
       type: "posts"
     values:
       layout: "post"
   -
     scope:
-      path: "elections"
+      path: "_posts/elections"
       type: "posts"
     values:
       layout: "election"
