@@ -1,50 +1,64 @@
 ---
 title: Get Involved
 redirect_from: /vote.html
-disable_subscribe_button: true
 ---
-<h2>Get updates</h2>
-
-<p>
-  Want to make sure you don't miss anything that happens with Something New?
-  Subscribe to our email updates and we'll make sure you're kept informed!
-</p>
-
-{% include mailchimp_form.html %}
-
-<h2>Get involved</h2>
-
-<p>
-  If you want to become part of our movement for a better democracy, we'd love
-  to have you on board! There are a few ways to get involved:
-</p>
 
 <div class='row'>
   <div class='col-sm-4'>
     <div class='well'>
-      <h3>Discussion list</h3>
-      <p>
-        Sign up to our email discussion list to join the conversation.
+      <h3>Discourse</h3>
+      <p style='min-height: 4.5em;'>
+        Sign up to our Discourse forum to join the conversation.
       </p>
-      <a href='https://groups.google.com/forum/#!forum/something-new-discuss' class='btn btn-default btn-lg'><i class='fa fa-envelope'></i> Sign up</a>
+      <a href='http://discourse.somethingnew.org.uk' class='btn btn-primary btn-lg'><i class='fa fa-comment'></i> Join in</a>
     </div>
   </div>
   <div class='col-sm-4'>
     <div class='well'>
-      <h3>Live chat</h3>
-      <p>
-        Email too slow? Come and say hello live in our Slack channel.
+      <h3>Facebook</h3>
+      <p style='min-height: 4.5em;'>
+        Like us on Facebook, and tell your friends!
       </p>
-      <a href='http://slack.somethingnew.org.uk/' class='btn btn-default btn-lg'><i class='fa fa-slack'></i> Join Slack</a>
+      <a href='https://facebook.com/somethingnewuk' class='btn btn-primary btn-lg'><i class='fa fa-facebook'></i> Like</a>
     </div>
   </div>
   <div class='col-sm-4'>
     <div class='well'>
-      <h3>Todo list</h3>
-      <p>
-        Want to get stuck in? We have a list of jobs to do on Trello.
+      <h3>Twitter</h3>
+      <p style='min-height: 4.5em;'>
+        Follow us on Twitter for updates, news, and discussion.
       </p>
-      <a href='https://trello.com/b/3mWRXsc2/volunteering' class='btn btn-default btn-lg'><i class='fa fa-trello'></i> Ideas on Trello</a>
+      <a href='https://twitter.com/intent/follow?screen_name=havesomenew' class='btn btn-primary btn-lg'><i class='fa fa-twitter'></i> Follow</a>
     </div>
   </div>
 </div>
+
+<h2>Do More</h2>
+{% for taskgroup in site.data.volunteer_tasks %}
+  <h3>{{taskgroup.title}}</h3>
+  {% assign group = forloop.index %}
+  <div class="panel-group" id="accordion-{{group}}" role="tablist" aria-multiselectable="true">
+    {% for task in taskgroup.tasks %}
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading-{{group}}-{{forloop.index}}">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-{{group}}" href="#collapse-{{group}}-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{group}}-{{forloop.index}}">
+              {% if task.icon %}
+                <i class='fa {{task.icon}}'></i>
+              {% endif %}
+              {{ task.title }}
+            </a>
+          </h4>
+        </div>
+        <div id="collapse-{{group}}-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{group}}-{{forloop.index}}">
+          <div class="panel-body">
+            {{ task.description | markdownify }}
+            {% if task.link %}
+              <a href='{{ task.link }}' class='pull-right btn btn-primary'>{{ task.link_title }} <i class='fa fa-chevron-right'></i></a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

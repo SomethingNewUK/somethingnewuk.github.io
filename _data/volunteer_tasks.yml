@@ -1,0 +1,113 @@
+- 
+  title: Instant actions
+  tasks: 
+    -
+      title: Tweet about Something New
+      description: |
+        Tell your followers on Twitter about what we're doing! Include our handle [@havesomenew](https://twitter.com/havesomenew), and you can also link to the [website](/), particular [articles](/news.html) or [manifesto pages](/manifesto).
+      icon: fa-twitter
+      link: https://twitter.com/intent/tweet?text=Think%20we%20need%20a%20new%20kind%20of%20politics%20for%20the%2021st%20century?%20Check%20out%20@havesomenew.%20https://somethingnew.org.uk
+      link_title: Tweet
+    -
+      title: Share Something New on Facebook
+      description: |
+        Sharing our content on your timeline will show your friends that you think we're worth a look. Why not share a [news post](/news.html), a [manifesto page](/manifesto), or a [video](/watch_and_listen.html)?
+      icon: fa-facebook
+      link: https://facebook.com/somethingnewuk
+      link_title: Share
+    -
+      title: Talk about us on Reddit
+      description: |
+        If you're a redditor, you can support us by submitting links to content on the our website, or just anything that mentions us. The best place might be [/r/ukpolitics](https://reddit.com/r/ukpolitics), but there are many other options. If you post, let us know at [@havesomenew](https://twitter.com/havesomenew), and we'll put out the call for upvotes!
+      icon: fa-reddit
+      link: https://www.reddit.com/submit
+      link_title: Post to Reddit
+- 
+  title: Got a few minutes?
+  tasks: 
+    -
+      title: Suggest or improve a policy
+      icon: fa-edit
+      description: |
+        All our policy is crowdsourced, and you can easily add your own ideas in just a few minutes:
+
+        1. Head over to [the manifesto](/manifesto)
+        2. Find the area where you want to add your idea
+        3. Hit "Make a change" at the top right, and sign up for an account if necessary
+        4. Write your idea
+        5. Hit the "Submit changes" button at the bottom, follow the instructions, and you're done!
+
+        After that, the existing authors will decide if it goes into the main manifesto, and if it does, you get to vote next time! Democracy in action!
+      link: /manifesto.html
+      link_title: Improve the manifesto
+    -
+      title: Write to your local paper
+      icon: fa-newspaper-o
+      description: |
+        Local papers are always after letters to publish. Why not write to express your disappointment with our current political options, and mention that we're trying to do things differently? Normally you can just send an email, so this doesn't take long!
+      link: http://news.mysociety.org/
+      link_title: Find your local paper
+- 
+  title: Got an hour or two?
+  tasks: 
+    -
+      title: Write a blog post
+      icon: fa-pencil
+      description: |
+        Why not write a blog post or article about us, or generally on your thoughts about democracy and how we can do it better? Make sure you share it far and wide, of course, and let us know so we can do the same!
+      link: https://medium.com/new-story
+      link_title: Start writing
+    -
+      title: Transcribe our videos and podcasts
+      icon: fa-video-camera
+      description: |
+        Isn't it annoying when you can't search what politicians and candidates say in person? We think so. 
+        
+        That's why we want to use [SayIt](http://somethingnew.sayit.mysociety.org) to publish transcripts of our talks 
+        and podcasts. If you fancy it, you can transcribe something from the list below, either straight into the 
+        site, or just write it into a document and send it over to [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk). 
+        
+        Most things are about half an hour long, but it'll probably take longer to transcribe unless you're a whiz with 
+        a shorthand keyboard.
+        
+        All the links below need transcribing, so pick one and get started!
+        
+        * [EMFCamp 2014](https://www.youtube.com/watch?v=X7BLpS4cM4o)
+        * [Open Revolution Episode 2: Getting to Know You Part 2](https://soundcloud.com/openrevolution/episode-2-getting-to-know-you-part-2)
+        * [Open Revolution Episode 3: The Internet](https://soundcloud.com/openrevolution/episode-3-the-internet)
+        * [Open Revolution Episode 4: Crime Not Punishment](https://soundcloud.com/openrevolution/episode-4-crime-not-punishment)
+        * [Open Revolution Episode 5: Something New](https://soundcloud.com/openrevolution/episode-5-something-new)
+        * [Open Revolution Episode 7: Economic Truth](https://soundcloud.com/openrevolution/episode-7-economic-truth)
+        * [Open Revolution Episode A: Paul Robinson](https://soundcloud.com/openrevolution/episode-a-paul-robinson)
+        * [Open Revolution Episode 8: We Do DO Need Education](https://soundcloud.com/openrevolution/episode-8-we-do-do-need-education)
+        * [Open Revolution Episode 9: Energy = Environment](https://soundcloud.com/openrevolution/episode-9-energy-environment)
+        * [Open Revolution Episode 10: Jonny Foreign Policy](https://soundcloud.com/openrevolution/episode-10-jonny-foreign-policy)
+        * [Open Revolution Episode 11: Your Good Health](https://soundcloud.com/openrevolution/your-good-health)
+        * [Open Revolution Episode 12: Stepney Bielection Or Byelection](https://soundcloud.com/openrevolution/episode-12-stepney-bielection-or-byelection)
+        * [OpenTech 2015: I stood as a candidate, and...](http://www.opentech.org.uk/2015/audio/B5-all-3.mp3)
+        
+      link: https://somethingnew.org.uk/watch_and_listen.html
+      link_title: Find something to transcribe
+- 
+  title: Become a volunteer
+  tasks: 
+    -
+      title: Stand for election
+      icon: fa-check-square-o 
+      description: |
+        We're always after more people to stand. Obviously this is a big commitment, but if you're inspired to offer people a new choice, then come and join the conversation and let's make it happen!
+        
+        Knowledge, experience, etc not required :)
+      link: http://discourse.somethingnew.org.uk
+      link_title: Join the conversation
+    -
+      title: Lend your skills
+      icon: fa-rocket
+      description: |
+        We've got so much to do, there is definitely a way we can use your skills. 
+        
+        Whether it's writing, coding, design, social media, marketing, or just knocking on doors, there is a place for you in Something New. 
+        
+        Come and join the conversation and tell us how you'd like to get involved!
+      link: http://discourse.somethingnew.org.uk
+      link_title: Join the conversation
