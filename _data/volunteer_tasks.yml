@@ -2,6 +2,15 @@
   title: Instant actions
   tasks: 
     -
+      title: Set up a regular donation
+      description: |
+        Making a regular monthly donation to Something New really helps us pay for web services, and build up a fighting fund for elections.
+        
+        We publish [basic details of all donations](http://somethingnew.org.uk/about/finances/horsham/donations.html) openly, so be sure you're OK with that before you donate, and that you're on the UK electoral roll.
+      icon: fa-gbp
+      link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CFGWER8JJ738U
+      link_title: Donate
+    -
       title: Tweet about Something New
       description: |
         Tell your followers on Twitter about what we're doing! Include our handle [@havesomenew](https://twitter.com/havesomenew), and you can also link to the [website](/), particular [articles](/news.html) or [manifesto pages](/manifesto).
