@@ -39,6 +39,6 @@ Now add in that our society is becoming increasingly automated. How do we deal w
 
 How does industrial-era politics handle this? What do trades unions do, for instance? Do they fight against the automation of the world and the destruction of jobs, or do they help manage the transition? [Dotcomrades](http://www.dotcomrades.net/) is a really interesting group which I hope can help unions to work some of this out and move forward into the future.
 
-For me, these ideas are an essential step towards our long-term goal of becoming a successful utopia, which is why Basic Income research is part of [Something New's manifesto](http://localhost:4000/manifesto/economy#social-security).
+For me, these ideas are an essential step towards our long-term goal of becoming a successful utopia, which is why Basic Income research is part of [Something New's manifesto](/manifesto/economy#social-security).
 
 Something New is all about engaging with this kind of future politically, working out how we get to somewhere better without getting locked down in political games, and working out how we can use our new-found technological powers to benefit *everyone*. If you want to help build that vision, [get involved](/support.html).
