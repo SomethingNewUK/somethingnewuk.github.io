@@ -24,14 +24,6 @@
     {% endif %}
 
     <div class='container'>
-      {% if page.title %}
-        <h1>
-          {{page.title}}
-          {% if page.editable == true %}
-            {% include manifesto_edit_button.html %}
-          {% endif %}
-        </h1>
-      {% endif %}
       {{ content }}
     </div>
 
