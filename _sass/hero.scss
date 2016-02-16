@@ -1,0 +1,30 @@
+.hero {
+  
+  background-image: url(https://c2.staticflickr.com/4/3373/3485479724_533c83c72d_b.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  h1 {
+    padding: 5px 0px;
+    font-size: 3em;
+    margin: 15px 0px;
+    &::after {
+      display: none;
+    }
+    font-family: Arial Bold,Gadget,sans-serif;;
+  }
+
+  img {
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      height: 100px;
+      margin: 5px 0px;
+    }
+    @media screen and (min-width: 992px) {
+      height: 200px;
+      margin: 15px 0px;
+    }
+  }
+}

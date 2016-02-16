@@ -57,36 +57,6 @@ body {
 
   }
 
-  .hero {
-    
-    background-image: url(https://c1.staticflickr.com/9/8129/8705867109_0854813ebc_b.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-    h1 {
-      padding: 5px 0px;
-      font-size: 3em;
-      margin: 15px 0px;
-      &::after {
-      	display: none;
-      }
-    }
-
-    img {
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        height: 100px;
-        margin: 5px 0px;
-      }
-      @media screen and (min-width: 992px) {
-        height: 200px;
-        margin: 15px 0px;
-      }
-    }
-  }
-
   .content {
     background: white;
   }
@@ -100,7 +70,7 @@ body {
     margin-bottom: 20px;
   }
   
-  footer {
+  > footer {
     margin-top: 25px;
     background: black;
     padding: 50px;
@@ -181,3 +151,5 @@ body {
 
 @import "policy";
 @import "masonry";
+@import "hero";
+@import "posts";
