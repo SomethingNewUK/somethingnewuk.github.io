@@ -31,11 +31,13 @@ This extreme free-market zealot of a company should be campaigning for the progr
 
 We also see this in new ideas like [colony.io](http://colony.io/), where people form distributed autonomous organisations and sell their work piecemeal. Job security doesn't exist, but the model does unleash new possibilities for the future.
 
-Basic Income is an essential safety net not only for people, but for our economy in a future of atomised work. This is becoming obvious to some, to the extent that Silicon Valley venture capitalists [Y Combinator](https://www.ycombinator.com/) are [investing in a long-term research project on basic income](https://blog.ycombinator.com/basic-income). Not a normal combination.
+Basic Income is an essential safety net not only for people, but for our economy in a future of atomised work. This is becoming obvious to some, to the extent that Silicon Valley venture capitalists [Y Combinator](https://www.ycombinator.com/) are [investing in a long-term research project on basic income](https://blog.ycombinator.com/basic-income). 
 
-Add to that that our society is becoming increasingly automated. How do we deal with that? We've thought for years that we'd be working less in the future, and that's definitely not happened yet, but I still think it will. 
+This isn't a normal combination, but it shows that our future political decisions won't be on the traditional left-right spectrum, but instead fusing ideas from both and moving forward.
 
-How does industrial-era politics handle this? What do trades unions do, for instance? Do they fight against the automation of the world and the destruction of jobs, or do they help manage the transition? [Dotcomrades](http://www.dotcomrades.net/) is a really interesting group which I hope can help unions to work some of this out.
+Now add in that our society is becoming increasingly automated. How do we deal with that? We've thought for years that we'd be working less in the future, and that's definitely not happened yet, but we're sure to get there at some point.
+
+How does industrial-era politics handle this? What do trades unions do, for instance? Do they fight against the automation of the world and the destruction of jobs, or do they help manage the transition? [Dotcomrades](http://www.dotcomrades.net/) is a really interesting group which I hope can help unions to work some of this out and move forward into the future.
 
 For me, these ideas are an essential step towards our long-term goal of becoming a successful utopia, which is why Basic Income research is part of [Something New's manifesto](http://localhost:4000/manifesto/economy#social-security).
 
