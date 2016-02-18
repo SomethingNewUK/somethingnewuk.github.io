@@ -1,21 +1,25 @@
+collections:
+  elections:
+    output: true
+    permalink: /elections/:year/:month/:day/:title.html
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title.html
 defaults:
   -
     scope:
-      path: ""
       type: "pages"
     values:
       layout: "page"
       disable_subscribe_button: false
   -
     scope:
-      path: "_posts/news"
       type: "posts"
     values:
       layout: "post"
   -
     scope:
-      path: "_posts/elections"
-      type: "posts"
+      type: "elections"
     values:
       layout: "election"
   -
@@ -38,7 +42,6 @@ gems:
   - jekyll-feed
 feed:
   path: news.rss
-permalink: /:categories/:year/:month/:day/:title.html
 github:
   organisation: somethingnewuk
   pages_domain: somethingnewuk.github.io
