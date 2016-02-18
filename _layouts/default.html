@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="/stylesheets/main.css">
     <meta name='viewport' content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="icon" type="image/png" href="/images/favicon64.png"/>
-    <title>Something New: {{ page.title }}</title>
+    <title>{{ site.title }} - {{ page.title }}</title>
+    
+    {% include social.html %}
+    
   </head>
 
   <body>
