@@ -7,7 +7,9 @@
 <!-- author -->
 <meta name="twitter:site" content="@{{ site.twitter }}">
 <meta name="twitter:creator" content="@{{ site.twitter }}">
-<meta property="article:author" content="https://www.facebook.com/{{ site.facebook }}">
+{% if page.date %}
+  <meta property="article:author" content="https://www.facebook.com/{{ site.facebook }}">
+{% endif %}
 
 <!-- title -->
 {% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
