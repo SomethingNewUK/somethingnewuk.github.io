@@ -1,3 +1,11 @@
+title: Something New
+description: Something New is a political party for the 21st century, building a better democracy for the future.
+locale: en_gb
+timezone: Europe/London
+twitter: havesomenew
+facebook: somethingnewuk
+icon: /images/logo.png
+
 collections:
   elections:
     output: true
@@ -36,14 +44,20 @@ defaults:
       type: "pages"
     values:
       layout: "local_policy"
+
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
   - jekyll-feed
+
 feed:
   path: news.rss
+
 github:
   organisation: somethingnewuk
   pages_domain: somethingnewuk.github.io
   finances_repo: finances
+  url: http://localhost:4000
+
+  
