@@ -4,7 +4,7 @@ locale: en_gb
 timezone: Europe/London
 twitter: havesomenew
 facebook: somethingnewuk
-images:
+image:
   square: /images/logo.png
   card: /images/card.png
 url: https://somethingnew.org.uk
