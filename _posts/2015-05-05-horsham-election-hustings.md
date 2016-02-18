@@ -2,7 +2,6 @@
 author: James Smith
 title: Horsham Election Hustings
 redirect_from: /horsham_election_hustings.html
-categories: news
 ---
 Still making up your mind who to vote for in Horsham? Wish you knew what your candidates had to say on various matter? Well, we've had three public election hustings events here over the last few weeks, and now all the videos are up online.
 

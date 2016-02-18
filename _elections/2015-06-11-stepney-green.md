@@ -2,7 +2,6 @@
 title: Stepney Green
 redirect_from: /stepney.html
 candidacy_id: "2015-06-11-tower-hamlets-council-byelection-stepney-green"
-categories: elections
 ---
 
 ## Meet Jessie Macneil-Brown
