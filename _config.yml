@@ -4,7 +4,8 @@ collections:
     permalink: /elections/:year/:month/:day/:title.html
   posts:
     output: true
-    permalink: /news/:year/:month/:day/:title.html
+permalink: /news/:year/:month/:day/:title.html
+
 defaults:
   -
     scope:
