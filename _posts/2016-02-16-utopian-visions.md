@@ -1,8 +1,8 @@
 ---
 title: Utopian Visions
 author: James Smith
-image: https://c2.staticflickr.com/4/3622/3471659466_28b71653fb_o.png
-image_alt: Possible Futures
+featured_image: https://c2.staticflickr.com/4/3622/3471659466_28b71653fb_o.png
+featured_image_alt: Possible Futures
 ---
 
 Where are we going? What future are we heading for?
