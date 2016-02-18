@@ -5,6 +5,7 @@ timezone: Europe/London
 twitter: havesomenew
 facebook: somethingnewuk
 icon: /images/logo.png
+url: https://somethingnew.org.uk
 
 collections:
   elections:
@@ -58,6 +59,4 @@ github:
   organisation: somethingnewuk
   pages_domain: somethingnewuk.github.io
   finances_repo: finances
-  url: http://localhost:4000
-
   

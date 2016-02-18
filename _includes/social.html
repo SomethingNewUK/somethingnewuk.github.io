@@ -20,12 +20,12 @@
 <meta name="twitter:description" content="{{ description | strip }}">
 
 <!-- image -->
-{% capture image %}{% if page.featured_image %}{{ page.featured_image }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.github.url }}{% endif %}{% endcapture %}
+{% capture image %}{% if page.featured_image %}{{ page.featured_image }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}{% endcapture %}
 <meta property="og:image" content="{{ image }}">
 <meta name="twitter:image" content="{{ image }}">
 
 <!-- url -->
-{% capture url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.github.url }}{% endcapture %}
+{% capture url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
 <meta property="og:url" content="{{ url }}">
 <meta name="twitter:url" content="{{ url }}">
 
