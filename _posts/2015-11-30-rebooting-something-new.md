@@ -1,6 +1,6 @@
 ---
 title: Rebooting Something New
-author: Andrew Williams
+author: andrew_williams
 ---
 
 It's been 207 days since 7th May, when the Conservatives won a flimsy five-seat

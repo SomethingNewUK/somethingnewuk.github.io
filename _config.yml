@@ -13,8 +13,8 @@ collections:
   elections:
     output: true
     permalink: /elections/:year/:month/:day/:title.html
-  posts:
-    output: true
+  people:
+    output: false
 permalink: /news/:year/:month/:day/:title.html
 
 defaults:

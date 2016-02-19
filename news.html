@@ -2,13 +2,17 @@
 title: News
 ---
 
+
+
 {% for post in site.posts %}
+  {% capture author_path %}_people/{{ post.author }}.md{% endcapture %}
+  {% assign author = site.people | where: "path", author_path | first %}
   <div>
     <h2>
       <a href='{{post.url}}'>{{ post.title }}</a> 
     </h2>
     <p>
-      <small>{{ post.date | date: '%B %d %Y' }} by {{ post.author }}</small>
+      <small>{{ post.date | date: '%B %d %Y' }} by {{ author.name }}</small>
     </p>
     <div>
       {{ post.excerpt }}
