@@ -15,13 +15,11 @@ layout: default
     {% endif %}
   </div>
 
-  <div class='pull-left postdate'>
+  <div class='byline'>
+    By {{ author.name }},
     <span class='day'>{{page.date | date: '%d' }}</span>
-    <br/>
     <span class='month'>{{page.date | date: '%B %Y' }}</span>
   </div>
-
-  <div class='byline'>By {{ author.name }}</div>
 
   <div class='postcontent'>
     {{ content }}
