@@ -5,6 +5,9 @@ featured_image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_o
 featured_image_alt: Flag of Europe
 ---
 
+{: .tldr .well}
+At Something New, we believe that the UK should remain part of the European Union. However, we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to vote Yes on July 23rd.
+
 The European Union is cause for celebration throughout the world. With the forming of the EU, conflict turned to co-operation, peaceful progress replaced bloodshed.
 
 In recent years the rise of nationalist parties (like UKIP, Front National, Golden Dawn, National Democratic Party, Finns, Danish People's Party, Party for Freedom, Jobbik, Austrian Freedom and Lega Nord) has sewn new and disturbing division amongst Europe's democracies. Their campaign of fear and hatred of others is polarising populations and threatening the peace that helped deliver Europe from decades of war.
