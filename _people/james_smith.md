@@ -1,6 +1,6 @@
 ---
 name: James Smith
 twitter: floppy
-role: Party Leader
+role: Party Leader & Treasurer
 category: officers
 ---
