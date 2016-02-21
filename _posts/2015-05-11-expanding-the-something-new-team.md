@@ -1,7 +1,8 @@
 ---
 title: Expanding the Something New team
 redirect_from: /expanding_the_something_new_team.html
-author: james_smith
+authors: 
+  - james_smith
 ---
 
 When we formed Something New last year, we did so with the bare minimum of people officially involved. Now though, it's time to expand and share the load around a bit more.

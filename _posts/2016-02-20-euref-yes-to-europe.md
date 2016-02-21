@@ -1,6 +1,8 @@
 ---
 title: EUref - Yes to Europe!
-author: philip_john
+authors: 
+  - philip_john
+  - ed_caplen
 featured_image:
   url: https://c1.staticflickr.com/1/41/114507298_04a482ca9b_o.jpg
   alt: Flag of Europe
@@ -8,7 +10,6 @@ featured_image:
   link: https://www.flickr.com/photos/robdeman/114507298
 ---
 
-{: .tldr .well}
 At Something New, we believe that the UK should remain part of the European Union. But we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to Vote In on July 23rd.
 
 The European Union is cause for celebration throughout the world. With the forming of the EU, conflict turned to co-operation, and peaceful progress replaced bloodshed.
