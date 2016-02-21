@@ -1,8 +1,11 @@
 ---
 title: Utopian Visions
 author: james_smith
-featured_image: https://c2.staticflickr.com/4/3622/3471659466_28b71653fb_o.png
-featured_image_alt: Possible Futures
+featured_image: 
+  url: https://c2.staticflickr.com/4/3622/3471659466_28b71653fb_o.png
+  alt: Possible Futures
+  attribution: Possible Futures, by Gavin Starks (CC-BY-NC-SA 2.0)
+  link: https://www.flickr.com/photos/dgen/3471659466/
 ---
 
 Where are we going? What future are we heading for?

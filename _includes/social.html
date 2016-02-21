@@ -22,8 +22,8 @@
 <meta name="twitter:description" content="{{ description | strip }}">
 
 <!-- image -->
-<meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image }}{% else %}{{ site.image.card | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-<meta name="twitter:image" content="{% if page.featured_image %}{{ page.featured_image }}{% else %}{{ site.image.square | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image.url }}{% else %}{{ site.image.card | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<meta name="twitter:image" content="{% if page.featured_image %}{{ page.featured_image.url }}{% else %}{{ site.image.square | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
 <!-- url -->
 {% capture url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}

@@ -1,10 +1,11 @@
 ---
 title: EUref - Yes to Europe!
 author: philip_john
-featured_image: https://c1.staticflickr.com/1/41/114507298_04a482ca9b_o.jpg
-featured_image_alt: Flag of Europe
-featured_image_credit: European Flag, by Rock Cohen (CC-BY-SA 2.0)
-featured_image_link: https://www.flickr.com/photos/robdeman/114507298/sizes/o/
+featured_image:
+  url: https://c1.staticflickr.com/1/41/114507298_04a482ca9b_o.jpg
+  alt: Flag of Europe
+  attribution: European Flag, by Rock Cohen (CC-BY-SA 2.0)
+  link: https://www.flickr.com/photos/robdeman/114507298
 ---
 
 {: .tldr .well}

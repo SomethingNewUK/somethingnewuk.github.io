@@ -11,9 +11,9 @@ layout: default
     <h1>{{page.title}}</h1>
 
     {% if page.featured_image %}
-      <img id='featured-image' src={{page.featured_image}} alt='{{page.featured_image_alt}}' class='blog-header'/>
-      {% if page.featured_image_credit %}
-        <small class='pull-right'><a href='{{page.featured_image_link}}'>{{page.featured_image_credit}}</a></small>
+      <img id='featured-image' src={{page.featured_image.url}} alt='{{page.featured_image.alt}}' class='blog-header'/>
+      {% if page.featured_image.attribution %}
+        <small class='pull-right'><a href='{{page.featured_image.link}}'>{{page.featured_image.attribution}}</a></small>
       {% endif %}
     {% endif %}
   </div>
