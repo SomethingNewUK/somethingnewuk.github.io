@@ -8,7 +8,7 @@ featured_image_link: https://www.flickr.com/photos/robdeman/114507298/sizes/o/
 ---
 
 {: .tldr .well}
-At Something New, we believe that the UK should remain part of the European Union. But we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to vote Yes on July 23rd.
+At Something New, we believe that the UK should remain part of the European Union. But we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to Vote In on July 23rd.
 
 The European Union is cause for celebration throughout the world. With the forming of the EU, conflict turned to co-operation, and peaceful progress replaced bloodshed.
 
@@ -50,4 +50,4 @@ We must stay in a reformed Europe, but not the selfish, corporate-driven "reform
 
 Even if we do choose to stay, the battle will not be over, and we hope that people from all political backgrounds will join in pushing for positive change within the EU for a better and more secure future.
 
-Join us, vote **YES** on 23rd June, and then let's work to build a 21st century democratic EU from the inside.
+Join us, vote **IN** on 23rd June, and then let's work to build a 21st century democratic EU from the inside.
