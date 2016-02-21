@@ -15,3 +15,17 @@
   }
     
 }
+
+.image-caption {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 3px;
+  top: -1.9em;
+  float: right;
+  opacity: 0.5;
+  font-size: 0.75em;
+  a {
+    color: white;
+  }
+}
