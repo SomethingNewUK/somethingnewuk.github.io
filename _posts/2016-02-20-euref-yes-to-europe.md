@@ -11,7 +11,7 @@ featured_image:
 ---
 
 {: .tldr}
-At Something New, we believe that the UK should remain part of the European Union. But we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to Vote In on July 23rd.
+At Something New, we believe that the UK should remain part of the European Union. But we also know there are major problems with it, particularly around democracy and efficiency. The thing is, we're better off fixing those from the inside, not stepping away, and so we're encouraging citizens to Vote In on June 23rd.
 
 The European Union is cause for celebration throughout the world. With the forming of the EU, conflict turned to co-operation, and peaceful progress replaced bloodshed.
 
