@@ -14,15 +14,11 @@
     width: 100%;
   }
   
-  .postcontent {
-    
-    > p:first-child {
-      border: 1px solid lightgray;
-      border-radius: 5px;
-      padding: 10px 10px;
-      background-color: #dfdfdd;
-    }
-    
+  .tldr {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: #dfdfdd;
   }
   
 }
