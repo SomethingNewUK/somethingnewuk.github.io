@@ -9,6 +9,9 @@ featured_image:
   link: https://www.flickr.com/photos/bethscupham/7663247816
 ---
 
+{: .tldr}
+Individual nations are becoming less relevant as we create communities and businesses over the network instead of with the people nearby. Also, we have to learn to think together globally to solve our biggest problems. With a future where nations don't matter so much, leaving the EU seems a backwards step for us to take.
+
 The upcoming EU referendum is stirring up a lot of thinking about our place in the world. For me, Millicent Scott on Twitter put it very well:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">I want to be part of a post-national world, not limited by pesky national borders.<a href="https://twitter.com/hashtag/BritIn?src=hash">#BritIn</a></p>&mdash; Millicent Scott (@MissMillicent) <a href="https://twitter.com/MissMillicent/status/701003107761844224">February 20, 2016</a></blockquote>
