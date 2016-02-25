@@ -6,4 +6,6 @@ gem 'github-pages'
 group :test do
   gem 'html-proofer'
   gem 'rspec'
+  gem 'nokogiri'
+  gem 'rspec-html-matchers'
 end
