@@ -4,7 +4,7 @@ gem 'rake'
 gem 'github-pages'
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', github: "Floppy/html-proofer", branch: "jekyll-3-extensionless-links"
   gem 'rspec'
   gem 'nokogiri'
   gem 'rspec-html-matchers'
