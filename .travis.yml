@@ -4,4 +4,4 @@ cache: bundler
 rvm:
   - 2.2.2
 script:
-  - bundle exec rake test
+  - bundle exec rake
