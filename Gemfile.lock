@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/Floppy/html-proofer.git
-  revision: 3c6d11bc32c887a4b487c7506d09d1076735525a
+  revision: a28c9081fe8187747856353cfe26bcc352997f37
   branch: jekyll-3-extensionless-links
   specs:
     html-proofer (2.6.4)
@@ -17,7 +17,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    activesupport (4.2.5.1)
+    activesupport (4.2.5.2)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)

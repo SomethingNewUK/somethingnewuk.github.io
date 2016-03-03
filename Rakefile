@@ -19,7 +19,11 @@ task :htmlproofer => :rebuild do
   ignored = [
     "http://githubeditor.herokuapp.com"
   ]
-  HTML::Proofer.new("./_site", typhoeus: {ssl_verifypeer: false, timeout: 30}, url_ignore: ignored, check_html: true).run
+  HTML::Proofer.new("./_site", 
+    typhoeus: {ssl_verifypeer: false, timeout: 30}, 
+    url_ignore: ignored, 
+    check_html: true, 
+    assume_extension: ".html").run
 end
 
 require 'rspec/core/rake_task'
