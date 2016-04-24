@@ -1,12 +1,21 @@
-<table class='table table-striped'>
-  <tr>
-    <th>Date</th>
-    <th>Buyer</th>
-    <th>Supplier</th>
-    <th>Description</th>
-    <th>Total Paid</th>
-  </tr>
-  {% for row in data_table %}
+{% assign lastyear = "0" %}
+{% for row in data_table %}
+  {% assign lastyear = year %}
+  {% assign year = row.date | split: '-' | first %}
+  {% if year != lastyear %}
+    {% unless forloop.first %}
+      </table>
+    {% endunless %}
+    <h2>{{ year }}</h2>
+    <table class='table table-striped'>
+      <tr>
+        <th>Date</th>
+        <th>Buyer</th>
+        <th>Supplier</th>
+        <th>Description</th>
+        <th>Total Paid</th>
+      </tr>
+  {% endif %}
   <tr>
     <td>{{row.date}}</td>
     <td>{% if row.buyer_uri and row.buyer_uri != "" %}<a href='{{row.buyer_uri}}'>{% endif %}{{row.buyer}}{% if row.buyer_uri and row.buyer_uri != "" %}</a>{% endif %}</td>
@@ -14,5 +23,7 @@
     <td><a href='http://www.unspsc.org/search-code/default.aspx?CSS={{row.unspsc_code}}'>{{row.description}}</a></td>
     <td>£{{row.total_paid}}</td>
   </tr>
-  {% endfor %}
-</table>
+  {% if forloop.last %}
+    </table>
+  {% endif %}
+{% endfor %}

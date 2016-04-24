@@ -3,17 +3,28 @@
   the donor's name.
 </p>
 
-<table class='table table-striped'>
-  <tr>
-    <th>Date</th>
-    <th>Donor</th>
-    <th>Amount</th>
-  </tr>
-  {% for row in data_table %}
+{% assign lastyear = "0" %}
+{% for row in data_table %}
+  {% assign lastyear = year %}
+  {% assign year = row.date | split: '-' | first %}
+  {% if year != lastyear %}
+    {% unless forloop.first %}
+      </table>
+    {% endunless %}
+    <h2>{{ year }}</h2>
+    <table class='table table-striped'>
+      <tr>
+        <th>Date</th>
+        <th>Donor</th>
+        <th>Amount</th>
+      </tr>
+  {% endif %}
   <tr>
     <td>{{row.date}}</td>
     <td>{{row.name}}</td>
     <td>£{{row.amount}}</td>
   </tr>
-  {% endfor %}
-</table>
+  {% if forloop.last %}
+    </table>
+  {% endif %}
+{% endfor %}
