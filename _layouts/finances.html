@@ -30,8 +30,8 @@ layout: page
 
 {% if resource.schema == "expenditure" %}
   {% include finances/expenditure.html %}
-{% elsif resource.schema == "donations" %}
-  {% include finances/donations.html %}
+{% elsif resource.schema == "income" %}
+  {% include finances/income.html %}
 {% endif %}
 
 {% assign csvlint = resource.links | where:"name","CSV Validation" | first %}

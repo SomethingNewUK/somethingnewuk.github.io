@@ -1,6 +1,6 @@
 <p class='alert alert-info'>
-  Rows with unnamed donors are where we are awaiting explicit permission to publish
-  the donor's name.
+  Rows with unnamed payees are where we are awaiting explicit permission to publish
+  a donor's name.
 </p>
 
 {% assign lastyear = "0" %}
@@ -15,14 +15,16 @@
     <table class='table table-striped'>
       <tr>
         <th>Date</th>
-        <th>Donor</th>
+        <th>Payee</th>
         <th>Amount</th>
+        <th>Category</th>
       </tr>
   {% endif %}
   <tr>
     <td>{{row.date}}</td>
     <td>{{row.name}}</td>
     <td>£{{row.amount}}</td>
+    <td>{{row.ec_category}}</td>
   </tr>
   {% if forloop.last %}
     </table>

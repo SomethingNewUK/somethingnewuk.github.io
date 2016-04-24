@@ -14,9 +14,9 @@ A better democracy would perhaps let single-issue platforms make an impact, but 
 
 All in all, we think we're offering something truly new in British politics; a party that wants to create a real alternative, and to truly improve the system. A party that doesn't want power for its own sake, but a party committed to giving that power back to the citizens of this country.
 
-### Spending & Donations
+### Income & Expenditure
 
-All of our spending and donations are published as open data, so that anyone can see them. Visit our [finance pages](http://somethingnewuk.github.io/finances) for all the details. The spending schema was design with [Spend Network](http://spendnetwork.com), and can be used by any party, so we would like to encourage others to publish in the same way.
+All of our income and expenditurei s published as open data, so that anyone can see them. Visit our [finance pages](http://somethingnewuk.github.io/finances) for all the details. The spending schema was design with [Spend Network](http://spendnetwork.com), and can be used by any party, so we would like to encourage others to publish in the same way.
 
 ### Party Details
 
