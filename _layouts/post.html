@@ -8,7 +8,7 @@ layout: default
     <h1>{{page.title}}</h1>
 
     {% if page.featured_image %}
-      <img id='featured-image' src={{page.featured_image.url}} alt='{{page.featured_image.alt}}' class='blog-header'/>
+      <img id='featured-image' src='{{page.featured_image.url}}' alt='{{page.featured_image.alt}}' class='blog-header'/>
       {% if page.featured_image.attribution %}
         <span class='image-caption'><a href='{{page.featured_image.link}}'>{{page.featured_image.attribution}}</a></span>
       {% endif %}
