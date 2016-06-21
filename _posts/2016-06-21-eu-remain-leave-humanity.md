@@ -25,3 +25,9 @@ We can get more done, for the benefit of humanity, by putting aside tribalism an
 There is only one thing we can rely on during the European referendum debate: we are all human.
 
 Vote against division. Vote for humanity to work together. Vote Remain.
+
+You could also;
+
+* [Take our pledge to vote remain on June 23](https://voteremain.somethingnew.org.uk/)
+* Check out [DiEM25](http://diem25.org), a movement for democratic reform of the EU, and sign their petition
+* [Call your Nan](http://www.callyournan.com/) to talk about the vote
