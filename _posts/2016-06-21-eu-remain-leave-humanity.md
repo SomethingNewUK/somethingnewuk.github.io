@@ -1,5 +1,5 @@
 ---
-title: Europe: Humanity should be the only deciding factor
+title: Europe - Humanity should be the only deciding factor
 authors:
   - philip_john
 featured_image:
