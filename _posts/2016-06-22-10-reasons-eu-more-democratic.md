@@ -30,3 +30,10 @@ If we were to "take back control" from the EU we would clearly be giving more po
 Instead of bemoaning the "undemocratic" EU then, we should look closer to home and focus our energy on reform of our own woeful democracy.
 
 Vote Remain, and demand better from the UK.
+
+You could also;
+
+* [Take our pledge to vote remain on June 23](https://voteremain.somethingnew.org.uk/)
+* Check out [DiEM25](http://diem25.org), a movement for democratic reform of the EU, and sign their petition
+* [Call your Nan](http://www.callyournan.com/) to talk about the vote
+
