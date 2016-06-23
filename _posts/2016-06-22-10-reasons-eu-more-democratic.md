@@ -12,6 +12,7 @@ featured_image:
 {: .tldr}
 Far from being undemocratic, as Brexit campaigners would have you believe, the EU has a much more democratic system than the UK.
 
+{: .table .table-striped}
 | UK | EU |
 | --- | --- |
 | 45% elected Parliament | 100% elected Parliament |
