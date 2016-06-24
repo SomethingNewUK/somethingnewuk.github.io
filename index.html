@@ -28,3 +28,24 @@ about love, tolerance, working together, and properly solving global challenges.
 <h2>
   Be part of a better future. Be part of Something New.
 </h2>
+
+<hr/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+<div class='row'>
+  <div class="masonry js-masonry" 
+    data-masonry-options='{ "itemSelector": ".masonry-item", "columnWidth": ".masonry-sizer", "percentPosition": true }'
+    style="margin-left: auto; margin-right: auto;">
+    <div class="masonry-sizer"></div>
+    {% for principle in site.data.principles %}
+      <div class='masonry-item'>
+        <h2>{{ principle.title }}</h2>
+        <p>
+          {{principle.text}}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% include testimonials.html %}
