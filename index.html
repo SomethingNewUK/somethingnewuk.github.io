@@ -1,33 +1,30 @@
 ---
-title: A new kind of political party
 redirect_from: /our_values.html
 disable_subscribe_button: true
 show_hero: true
 ---
+<p class='lead' style='margin-top: 10px'>
+The UK has voted to leave the EU. We don't think that was the right choice. Instead we think the future is
+about love, tolerance, working together, and properly solving global challenges.
+</p>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+<p>
+  Our old political options are broken, and we need new choices for the 21st century. We want to build
+  a new political party that's all about working towards a better future, built on openness, collaboration and
+  the power of the Internet to connect us all.
+</p>
 
-<div class='row'>
-  <div class="masonry js-masonry" 
-    data-masonry-options='{ "itemSelector": ".masonry-item", "columnWidth": ".masonry-sizer", "percentPosition": true }'
-    style="margin-left: auto; margin-right: auto;">
-    <div class="masonry-sizer"></div>
-    {% for principle in site.data.principles %}
-      <div class='masonry-item'>
-        <h2>{{ principle.title }}</h2>
-        <p>
-          {{principle.text}}
-        </p>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<p>
+  We started by creating an open manifesto and standing in the 2015 election, but we need your help. 
+  If you're in, sign up below.
+</p>
+
+{% include mailchimp_form.html %}
+
+<p>
+  And, if you want to get started right away, <a href='http://discourse.somethingnew.org.uk'>come and talk to us in our forum</a> right now.
+</p>
 
 <h2>
   Be part of a better future. Be part of Something New.
 </h2>
-
-{% include mailchimp_form.html %}
-
-{% include testimonials.html %}
-
