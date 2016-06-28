@@ -16,7 +16,7 @@ All in all, we think we're offering something truly new in British politics; a p
 
 ### Income & Expenditure
 
-All of our income and expenditurei s published as open data, so that anyone can see them. Visit our [finance pages](http://somethingnewuk.github.io/finances) for all the details. The spending schema was design with [Spend Network](http://spendnetwork.com), and can be used by any party, so we would like to encourage others to publish in the same way.
+All of our income and expenditure is published as open data, so that anyone can see them. Visit our [finance pages](http://somethingnewuk.github.io/finances) for all the details. The spending schema was design with [Spend Network](http://spendnetwork.com), and can be used by any party, so we would like to encourage others to publish in the same way.
 
 ### Party Details
 
