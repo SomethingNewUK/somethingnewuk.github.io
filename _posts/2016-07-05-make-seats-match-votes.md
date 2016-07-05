@@ -20,6 +20,6 @@ Since the EU referendum there have been reports of Leave voters expressing their
 
 It's time for something new. It's time we had a voting system that reflected the will of the people. It's time for proportional representation.
 
-Something New's manifesto commits to a proportional system for general elections so we're happy to support the [Electoral Reform Society](http://electoral-reform.org.uk) and [Unlock Democracy](http://unlockdemocracy.org.uk) in their call to Make Seats Match Votes.
+[Something New's manifesto](https://somethingnew.org.uk/manifesto/elections) commits to a proportional system for general elections so we're happy to support the [Electoral Reform Society](http://electoral-reform.org.uk) and [Unlock Democracy](http://unlockdemocracy.org.uk) in their call to Make Seats Match Votes.
 
 [Sign the petition](http://action.makeseatsmatchvotes.org/ea-action/action?ea.client.id=1754&ea.campaign.id=38262&ea.tracking.id=msmv), demand that seats match votes now.
