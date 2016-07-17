@@ -1,0 +1,65 @@
+---
+title: Thanks for joining Something New
+---
+
+Thank you for joining the party. Here are some next steps on how to get involved!
+
+<div class='row'>
+  <div class='col-sm-4'>
+    <div class='well'>
+      <h3>Discourse</h3>
+      <p style='min-height: 4.5em;'>
+        Sign up to our Discourse forum to join the conversation.
+      </p>
+      <a href='http://discourse.somethingnew.org.uk' class='btn btn-primary btn-lg'><i class='fa fa-comment'></i> Join in</a>
+    </div>
+  </div>
+  <div class='col-sm-4'>
+    <div class='well'>
+      <h3>Facebook</h3>
+      <p style='min-height: 4.5em;'>
+        Like us on Facebook, and tell your friends!
+      </p>
+      <a href='https://facebook.com/somethingnewuk' class='btn btn-primary btn-lg'><i class='fa fa-facebook'></i> Like</a>
+    </div>
+  </div>
+  <div class='col-sm-4'>
+    <div class='well'>
+      <h3>Twitter</h3>
+      <p style='min-height: 4.5em;'>
+        Follow us on Twitter for updates, news, and discussion.
+      </p>
+      <a href='https://twitter.com/intent/follow?screen_name=havesomenew' class='btn btn-primary btn-lg'><i class='fa fa-twitter'></i> Follow</a>
+    </div>
+  </div>
+</div>
+
+<h2>Do More</h2>
+{% for taskgroup in site.data.volunteer_tasks %}
+  <h3>{{taskgroup.title}}</h3>
+  {% assign group = forloop.index %}
+  <div class="panel-group" id="accordion-{{group}}" role="tablist" aria-multiselectable="true">
+    {% for task in taskgroup.tasks %}
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading-{{group}}-{{forloop.index}}">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-{{group}}" href="#collapse-{{group}}-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-{{group}}-{{forloop.index}}">
+              {% if task.icon %}
+                <i class='fa {{task.icon}}'></i>
+              {% endif %}
+              {{ task.title }}
+            </a>
+          </h4>
+        </div>
+        <div id="collapse-{{group}}-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{group}}-{{forloop.index}}">
+          <div class="panel-body">
+            {{ task.description | markdownify }}
+            {% if task.link %}
+              <a href='{{ task.link }}' class='pull-right btn btn-primary'>{{ task.link_title }} <i class='fa fa-chevron-right'></i></a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
