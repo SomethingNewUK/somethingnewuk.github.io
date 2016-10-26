@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <div class="container">
   <div class="policy">
     {{content}}
@@ -8,7 +9,7 @@ layout: page
 
   {% assign sorted_pages = site.pages | sort:"title" %}
   {% for p in sorted_pages %}
-    {% if p.layout == 'policy' %}
+    {% if p.layout == 'manifesto_policy' or p.layout == 'manifesto_local_index' %}
       {% assign previous_page = this_page %}
       {% assign this_page = p %}
       {% if p.title == page.title %}
@@ -18,7 +19,7 @@ layout: page
     {% endif %}
   {% endfor%}
   {% for p in sorted_pages offset:this_page_index %}
-    {% if p.layout == 'policy' %}
+    {% if p.layout == 'manifesto_policy' or p.layout == 'manifesto_local_index' %}
       {% assign next_page = p %}
       {% break %}
     {% endif %}

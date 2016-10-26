@@ -37,18 +37,28 @@ defaults:
       layout: "election"
   -
     scope:
-      path: "manifesto"
+      path: "manifesto/index.md"
       type: "pages"
     values:
-      layout: "policy"
-      editable: true
+      layout: "manifesto_index"
+  -
+    scope:
+      path: "manifesto/constituencies/index.md"
+      type: "pages"
+    values:
+      layout: "manifesto_local_index"
   -
     scope:
       path: "manifesto/constituencies"
       type: "pages"
     values:
-      layout: "local_policy"
-
+      layout: "manifesto_local_policy"
+  -
+    scope:
+      path: "manifesto"
+      type: "pages"
+    values:
+      layout: "manifesto_policy"
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
