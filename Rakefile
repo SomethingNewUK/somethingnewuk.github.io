@@ -2,11 +2,7 @@ require 'html-proofer'
 
 namespace :update do
   task :submodules do
-    ["manifesto", "_data/election-data", "_data/finances"].each do |dir|
-      Dir.chdir(dir) do
-        sh "git pull"
-      end
-    end
+    sh "git submodule update --remote"
   end
 end
 
