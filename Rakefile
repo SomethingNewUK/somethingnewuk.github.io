@@ -1,4 +1,4 @@
-require 'html/proofer'
+require 'html-proofer'
 
 namespace :update do
   task :submodules do
@@ -19,7 +19,7 @@ task :htmlproofer => :rebuild do
   ignored = [
     "http://githubeditor.herokuapp.com"
   ]
-  HTML::Proofer.new("./_site", 
+  HTMLProofer.check_directory("./_site", 
     typhoeus: {ssl_verifypeer: false, timeout: 30}, 
     url_ignore: ignored, 
     check_html: true, 
