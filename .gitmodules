@@ -9,3 +9,6 @@
 [submodule "manifesto"]
 	path = manifesto
 	url = https://github.com/openpolitics/manifesto.git
+[submodule "about/documents"]
+	path = about/documents
+	url = git@github.com:SomethingNewUK/party-constitution.git

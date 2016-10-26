@@ -20,7 +20,7 @@ All of our income and expenditure is published as open data, so that anyone can 
 
 ### Party Details
 
-We are a political party registered in the UK with the Electoral Commission, with registration number [PP2486](http://search.electoralcommission.org.uk/English/Registrations/PP2486).
+We are a political party registered in the UK with the Electoral Commission, with registration number [PP2486](http://search.electoralcommission.org.uk/English/Registrations/PP2486). You can view our current [constitution](documents/party-constitution) and [financial scheme](documents/financial-scheme) online.
 
 Officers:
 
