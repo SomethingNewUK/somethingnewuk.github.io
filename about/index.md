@@ -26,6 +26,7 @@ Officers:
 
 *   **Leader & Treasurer:** James Smith
 *   **Nominating officer:** Paul Robinson
+*   **Technology officer:** Philip John
 
 Registered Address: 14 Greenfinch Way, Horsham, West Sussex, RH12 5HB
 
