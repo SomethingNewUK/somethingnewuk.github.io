@@ -8,4 +8,5 @@ group :test do
   gem 'rspec'
   gem 'nokogiri'
   gem 'rspec-html-matchers'
+  gem 'mdspell'
 end

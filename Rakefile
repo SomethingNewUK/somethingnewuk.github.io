@@ -22,6 +22,10 @@ task :htmlproofer => :rebuild do
     assume_extension: ".html").run
 end
 
+task :spellcheck do
+  sh "mdspell . -c .mdspell"
+end
+
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec => :rebuild)
 

@@ -14,7 +14,7 @@ Humanity, and the kind of world we want to live in should be the deciding factor
 
 Economics, democracy, immigration - all key areas where arguments are posited by both sides in the EU referendum debate. But only one thing really matters - Humanity. We should vote based not on whether we are "better off", not on the systems, nor on who gets to live where, but on what world we want to be part of.
 
-Whether a Euro-sceptic - like me - or a European federalist, there's no denying that the EU, and it's predecessors, have been instrumental in bringing about unprecendented peace across Europe.
+Whether a Euro-sceptic - like me - or a European federalist, there's no denying that the EU, and it's predecessors, have been instrumental in bringing about unprecedented peace across Europe.
 
 Though there are plenty of disagreements between nations, the way that the continent works together, through the EU, is a phenomenal achievement. The prospect of war between European states is a delightfully distant one.
 
