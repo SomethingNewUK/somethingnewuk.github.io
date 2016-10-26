@@ -1,9 +1,11 @@
 [submodule "_data/election-data"]
 	path = _data/election-data
 	url = https://github.com/SomethingNewUK/election-data.git
+	branch = gh-pages
 [submodule "_data/finances"]
 	path = _data/finances
 	url = https://github.com/SomethingNewUK/finances.git
+	branch = gh-pages
 [submodule "manifesto"]
 	path = manifesto
 	url = https://github.com/openpolitics/manifesto.git
