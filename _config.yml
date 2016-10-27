@@ -15,7 +15,8 @@ collections:
     output: true
     permalink: /elections/:year/:month/:day/:title.html
   people:
-    output: false
+    output: true
+    permalink: /people/:title.html
 permalink: /news/:year/:month/:day/:title.html
 
 defaults:
@@ -35,6 +36,11 @@ defaults:
       type: "elections"
     values:
       layout: "election"
+  -
+    scope:
+      type: "people"
+    values:
+      layout: "person"
   -
     scope:
       path: "manifesto/index.md"
