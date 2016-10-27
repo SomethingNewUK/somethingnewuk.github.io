@@ -1,6 +1,6 @@
 {% assign today = "now" | date: "%Y-%m-%d" %}
 {% assign election = site.data.popolo-data.elections[include.election_id] %}
-{% if election.name %}
+{% if election.parent_id == null %}
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="{{election.id}}-heading">
       <h4 class="panel-title">
@@ -12,15 +12,13 @@
     <div id="{{election.id}}" class="panel-collapse collapse {% if today < election.end_date %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
       <div class="panel-body">
         <div class='row'>
-          
           {% include election-candidate.html candidacy_id=election.id %}
-          
-          {% assign area_hash_name = election.id | append: "-areas" %}
-          {% for area_hash in site.data.popolo-data.elections[area_hash_name] %}
-            {% assign area = area_hash[1] %}
-            {% include election-candidate.html candidacy_id=area.id %}
+          {% for sub_election in site.data.popolo-data.elections %}
+            {% if sub_election[1].parent_id == election.id %}
+              {% assign id = sub_election[1].id %}
+              {% include election-candidate.html candidacy_id=id %}
+            {% endif %}
           {% endfor %}
-          
         </div>
       </div>
     </div>

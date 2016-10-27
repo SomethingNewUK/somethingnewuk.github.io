@@ -5,6 +5,7 @@ layout: page
 <div class='candidate well pull-right'>
   {% assign candidacy = site.data.popolo-data.candidacies[page.candidacy_id] %}
   {% assign person    = site.data.popolo-data.people[candidacy.person_id] %}
+  {% assign election  = site.data.popolo-data.elections[candidacy.event_id] %}
   {% assign leaflet   = candidacy.links | where: "note", "Election leaflet" %}
   {% assign twitter   = person.contact_details | where: "type", "twitter" %}
 
@@ -13,7 +14,7 @@ layout: page
   </p>
   <div class='headshot' style='background-image: url({{ person.image }})'></div>
   <p>
-    {{ candidacy.area.name }}
+    {{ election.location.name }}
   </p>
   {% if twitter[0] %}
     <p>
