@@ -25,14 +25,21 @@ layout: page
 
 <div>
   {% if person.email %}
-    <a href='mailto:{{person.email}}'><i class='fa fa-envelope'></i></a>
+    <a href='mailto:{{person.email}}'><i class='fa fa-2x fa-envelope-square'></i></a>
   {% endif %}
+  
   {% assign twitter = person.contact_details | where: "type", "twitter" %}
-  {% if twitter %}
-    <a href='https://twitter.com/{{twitter["value"]}}'><i class='fa fa-twitter'></i></a>
+  {% if twitter[0] %}
+    {% assign twitter_handle = twitter[0]["value"] %}
+  {% elsif page.twitter %}
+    {% assign twitter_handle = page.twitter %}
   {% endif %}
+  {% if twitter_handle %}
+    <a href='https://twitter.com/{{twitter_handle}}'><i class='fa fa-2x fa-twitter-square'></i></a>
+  {% endif %}
+
   {% for link in person.links %}
-    <a href='{{link["url"]}}'><i class='fa fa-globe'></i></a>
+    <a href='{{link["url"]}}'><i class='fa fa-2x fa-external-link-square'></i></a>
   {% endfor %}
 </div>
 
