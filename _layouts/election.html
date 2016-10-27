@@ -4,21 +4,20 @@ layout: page
 
 <div class='candidate well pull-right'>
   {% assign candidacy = site.data.popolo-data.candidacies[page.candidacy_id] %}
-  {% assign person_id = candidacy.person_id %}
-  {% assign candidate = site.data.popolo-data.people[person_id] %}
+  {% assign person    = site.data.popolo-data.people[candidacy.person_id] %}
   {% assign leaflet   = candidacy.links | where: "note", "Election leaflet" %}
-  {% assign twitter   = candidate.contact_details | where: "type", "twitter" %}
+  {% assign twitter   = person.contact_details | where: "type", "twitter" %}
 
   <p>
-    <strong>{{ candidate.name }}</strong>
+    <strong>{{ person.name }}</strong>
   </p>
-  <div class='headshot' style='background-image: url({{ candidate.image }})'></div>
+  <div class='headshot' style='background-image: url({{ person.image }})'></div>
   <p>
     {{ candidacy.area.name }}
   </p>
   {% if twitter[0] %}
     <p>
-      <a href='https://twitter.com/{{twitter[0]["value"] | replace: "@", ""}}'><i class='fa fa-twitter'></i> {{twitter[0]["value"]}}</a>
+      <a href='https://twitter.com/{{twitter[0]["value"]}}'><i class='fa fa-twitter'></i> @{{twitter[0]["value"]}}</a>
     </p>
   {% endif %}
   {% if leaflet[0] %}
