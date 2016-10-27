@@ -1,5 +1,5 @@
 {% assign today = "now" | date: "%Y-%m-%d" %}
-{% assign election = site.data.election-data.elections[include.election_id] %}
+{% assign election = site.data.popolo-data.elections[include.election_id] %}
 {% if election.name %}
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="{{election.id}}-heading">
@@ -16,7 +16,7 @@
           {% include election-candidate.html candidacy_id=election.id %}
           
           {% assign area_hash_name = election.id | append: "-areas" %}
-          {% for area_hash in site.data.election-data.elections[area_hash_name] %}
+          {% for area_hash in site.data.popolo-data.elections[area_hash_name] %}
             {% assign area = area_hash[1] %}
             {% include election-candidate.html candidacy_id=area.id %}
           {% endfor %}

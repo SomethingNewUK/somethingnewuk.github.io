@@ -3,9 +3,9 @@ layout: page
 ---
 
 <div class='candidate well pull-right'>
-  {% assign candidacy = site.data.election-data.candidacies[page.candidacy_id] %}
+  {% assign candidacy = site.data.popolo-data.candidacies[page.candidacy_id] %}
   {% assign person_id = candidacy.memberships[0].person_id %}
-  {% assign candidate = site.data.election-data.people[person_id] %}
+  {% assign candidate = site.data.popolo-data.people[person_id] %}
   {% assign leaflet   = candidacy.links | where: "note", "Election leaflet" %}
   {% assign twitter   = candidate.contact_details | where: "type", "twitter" %}
 
