@@ -1,5 +1,5 @@
 ---
 name: Andrew Williams
-twitter: andrewdwilliams
+twitter: thebigwilliams
 role: Social Media Coordinator
 ---

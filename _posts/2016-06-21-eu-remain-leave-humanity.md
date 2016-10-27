@@ -1,7 +1,7 @@
 ---
 title: Europe - Humanity should be the only deciding factor
 authors:
-  - philip_john
+  - philip-john
 featured_image:
   url: https://farm2.staticflickr.com/1436/613445810_2249c2d193_z_d.jpg
   alt: Humanity

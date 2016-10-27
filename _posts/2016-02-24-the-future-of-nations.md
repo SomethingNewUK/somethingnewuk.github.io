@@ -1,7 +1,7 @@
 ---
 title: The future of nations 
 authors:
-  - james_smith
+  - james-smith
 featured_image:
   url: https://c2.staticflickr.com/8/7123/7663247816_4ef6c4d123_b.jpg
   alt: Earth

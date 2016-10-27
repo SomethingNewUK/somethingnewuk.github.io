@@ -1,7 +1,7 @@
 ---
 title: Open is a political statement
 authors:
-  - james_smith
+  - james-smith
 featured_image:
   url: https://cdn-images-1.medium.com/max/1333/1*lXOncPGNOTMzp1AEFIv2Bg.jpeg
   alt: Open is a political statement

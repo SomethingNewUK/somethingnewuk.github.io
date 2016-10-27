@@ -1,7 +1,7 @@
 ---
 title: Make Seats Match Votes
 authors:
-  - philip_john
+  - philip-john
 featured_image:
   url: https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1754/How-we-voted-What-we-got.jpg?v=1432118511000
   alt: Graphs showing the disparity between the vote split in the 2015 General Election and the resultant seats split in the House of Commons

@@ -1,6 +1,6 @@
 ---
 authors: 
-  - james_smith
+  - james-smith
 title: Horsham Election Hustings
 redirect_from: /horsham_election_hustings.html
 ---

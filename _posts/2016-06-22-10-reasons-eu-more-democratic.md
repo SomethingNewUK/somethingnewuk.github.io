@@ -1,7 +1,7 @@
 ---
 title: 10 Ways The EU Is More Democratic Than The UK
 authors:
-  - philip_john
+  - philip-john
 featured_image:
   url: https://farm1.staticflickr.com/71/167967683_c27012749f_o_d.jpg
   alt: EU Parliament Chamber

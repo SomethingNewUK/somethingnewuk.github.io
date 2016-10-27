@@ -1,7 +1,7 @@
 ---
 title: Hate has no place here
 authors:
-  - james_smith
+  - james-smith
 featured_image:
   url: https://c2.staticflickr.com/4/3760/10186176583_f0454f05d2_z.jpg
   alt: Feelings

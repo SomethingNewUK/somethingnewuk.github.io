@@ -1,7 +1,7 @@
 ---
 title: "Brexit: what next?"
 authors:
-  - james_smith
+  - james-smith
 featured_image:
   url: https://c1.staticflickr.com/5/4045/4606341298_ce0e5a94c0_z.jpg
   alt: Europe

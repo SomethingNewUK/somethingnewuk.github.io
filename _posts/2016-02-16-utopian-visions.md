@@ -1,7 +1,7 @@
 ---
 title: Utopian Visions
 authors: 
-  - james_smith
+  - james-smith
 featured_image: 
   url: https://c2.staticflickr.com/4/3622/3471659466_28b71653fb_o.png
   alt: Possible Futures

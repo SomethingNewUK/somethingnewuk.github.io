@@ -1,8 +1,8 @@
 ---
 title: EUref - Yes to Europe!
 authors: 
-  - philip_john
-  - ed_caplen
+  - philip-john
+  - ed-caplen
 featured_image:
   url: https://c1.staticflickr.com/1/41/114507298_04a482ca9b_o.jpg
   alt: Flag of Europe
