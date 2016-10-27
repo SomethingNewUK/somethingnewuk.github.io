@@ -1,7 +1,7 @@
 {% assign candidacy = site.data.popolo-data.candidacies[include.candidacy_id] %}
 
 {% if candidacy %}
-  {% assign person_id = candidacy.memberships[0].person_id %}
+  {% assign person_id = candidacy.person_id %}
   {% assign candidate = site.data.popolo-data.people[person_id] %}
 
   <div class='col-sm-4 candidate'>
