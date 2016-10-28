@@ -7,41 +7,55 @@ layout: page
   {% assign board_roles = site.data.popolo-data.memberships["something-new-executive-board"] | where: "person_id", page.popolo_data_id %}
 {% endif %}
 
-{% if person.image %}
-  <img src='{{person.image}}' class='pull-right' alt='{{person.name}}'/>
-{% endif %}
+<div class='pull-right' style="margin-left: 20px">
 
-{% for role in officer_roles %}
-  <span class="label label-default">{{ site.data.popolo-data.posts[role.post_id].label }}</span>
-{% endfor %}
-
-{% for role in board_roles %}
-  {% assign label = site.data.popolo-data.posts[role.post_id].label %}
-  {% unless label %}
-    {% assign label = "Member" %}
-  {% endunless %}
-  <span class="label label-default">{{ label }} of Executive Board</span>
-{% endfor %}
-
-<div>
-  {% if person.email %}
-    <a href='mailto:{{person.email}}'><i class='fa fa-2x fa-envelope-square'></i></a>
-  {% endif %}
-  
-  {% assign twitter = person.contact_details | where: "type", "twitter" %}
-  {% if twitter[0] %}
-    {% assign twitter_handle = twitter[0]["value"] %}
-  {% elsif page.twitter %}
-    {% assign twitter_handle = page.twitter %}
-  {% endif %}
-  {% if twitter_handle %}
-    <a href='https://twitter.com/{{twitter_handle}}'><i class='fa fa-2x fa-twitter-square'></i></a>
+  {% if person.image %}
+    <img src='{{person.image}}' alt='{{person.name}}'/>
   {% endif %}
 
-  {% for link in person.links %}
-    <a href='{{link["url"]}}'><i class='fa fa-2x fa-external-link-square'></i></a>
-  {% endfor %}
+  <div style='text-align: center'>
+    
+    <h3>Contact</h3>
+
+    {% if person.email %}
+      <a href='mailto:{{person.email}}'><i class='fa fa-2x fa-envelope-square'></i></a>
+    {% endif %}
+    
+    {% assign twitter = person.contact_details | where: "type", "twitter" %}
+    {% if twitter[0] %}
+      {% assign twitter_handle = twitter[0]["value"] %}
+    {% elsif page.twitter %}
+      {% assign twitter_handle = page.twitter %}
+    {% endif %}
+    {% if twitter_handle %}
+      <a href='https://twitter.com/{{twitter_handle}}'><i class='fa fa-2x fa-twitter-square'></i></a>
+    {% endif %}
+
+    {% assign github = person.contact_details | where: "type", "github" %}
+    {% if github %}
+      <a href='https://github.com/{{twitter[0]["value"]}}'><i class='fa fa-2x fa-github-square'></i></a>
+    {% endif %}
+
+    {% for link in person.links %}
+      <a href='{{link["url"]}}'><i class='fa fa-2x fa-external-link-square'></i></a>
+    {% endfor %}
+  </div>
+
 </div>
+
+<p>
+  {% for role in officer_roles %}
+    <span class="label label-default">{{ site.data.popolo-data.posts[role.post_id].label }}</span>
+  {% endfor %}
+
+  {% for role in board_roles %}
+    {% assign label = site.data.popolo-data.posts[role.post_id].label %}
+    {% unless label %}
+      {% assign label = "Member" %}
+    {% endunless %}
+    <span class="label label-default">{{ label }} of Executive Board</span>
+  {% endfor %}
+</p>
 
 <div>
   {{ content }}
