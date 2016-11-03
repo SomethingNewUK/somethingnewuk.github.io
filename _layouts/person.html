@@ -60,3 +60,20 @@ layout: page
 <div>
   {{ content }}
 </div>
+
+<hr>
+
+<h2>News Posts</h2>
+
+<ul>
+  {% for post in site.posts %}
+    {% if person.id %}
+     {% assign author = person.id %}
+    {% else %}
+      {% assign author = page.id | split: "/" | last %}
+    {% endif %}
+    {% if post.authors contains author %}
+      <li class='byline'><a href='{{post.url}}'>{{post.title}}</a> {{post.date | date: '%d %B %Y' }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
