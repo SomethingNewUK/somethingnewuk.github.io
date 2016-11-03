@@ -2,4 +2,6 @@
 popolo_data_id: andrew-williams
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Andrew is a student and aficionado of politics, whose passion is for improving the world. He grew up in Scarborough, North Yorkshire, and currently lives in Cheshire. He has been helping out at Something New since the end of 2014, including with social media, and has made a number of contributions to the manifesto.
+
+Andrew has also been a member of the Green Party and ran the social media for David Malone's second-placed leadership campaign in 2016.
