@@ -15,7 +15,7 @@ title: News
         {% for author_id in post.authors %}
           {% capture author_path %}_people/{{ author_id }}.md{% endcapture %}
           {% assign author = site.people | where: "path", author_path | first %}
-          {{ author.name }}{% if forloop.last %},{% else %} &amp; {% endif %}
+          {% if author.popolo_data_id %}{{site.data.popolo-data.people[author.popolo_data_id].name}}{% else %}{{ author.name }}{% endif %}{% if forloop.last %},{% else %} &amp; {% endif %}
         {% endfor %}
         {{ post.date | date: '%d %B %Y' }}
       </small>
