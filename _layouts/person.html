@@ -9,8 +9,8 @@ layout: page
 
 <div class='pull-right' style="margin-left: 20px">
 
-  {% if person.image %}
-    <img src='{{person.image}}' alt='{{person.name}}'/>
+  {% if person.image or page.image %}
+    <img src='{{person.image}}{{page.image}}' class='biography-image' alt='{{person.name}}'/>
   {% endif %}
 
   <div style='text-align: center'>
