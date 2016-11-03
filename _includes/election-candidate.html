@@ -1,20 +1,9 @@
 {% assign candidacy = site.data.popolo-data.candidacies[include.candidacy_id] %}
 
 {% if candidacy %}
-  {% assign candidate = site.data.popolo-data.people[candidacy.person_id] %}
+  {% assign link = candidacy.links | where: "note","Campaign page" | first %}
+  {% assign where = site.data.popolo-data.elections[candidacy.event_id].location.name %}
 
-  <div class='col-sm-4 candidate'>
+  {% include headshot.html person_id=candidacy.person_id link=link.url subtitle=where %}
 
-    <div class='headshot' style='background-image: url({{ candidate.image }})'></div>
-    <p>
-      {% assign link = candidacy.links | where: "note","Campaign page" | first %}
-      {% assign thiselection = site.data.popolo-data.elections[candidacy.event_id] %}
-      
-      {% if link %}<a href='{{link.url}}'>{% endif %}
-      <strong>{{ candidate.name }}</strong><br/>
-      {{ thiselection.location.name }}
-      {% if link %}</a>{% endif %}
-    </p>
-
-  </div>
 {% endif %}
