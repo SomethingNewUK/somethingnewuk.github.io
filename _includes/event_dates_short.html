@@ -1,0 +1,8 @@
+{% assign startdate = event.start | date: "%Y%m%d" %}
+{% assign enddate = event.end | date: "%Y%m%d" %}
+
+{{ event.start | date: "%a %-d" }}
+{% if startdate != enddate %}
+  - {{ event.end | date: "%a %-d" }}
+{% endif %}
+{{ event.end | date: "%b %Y" }}

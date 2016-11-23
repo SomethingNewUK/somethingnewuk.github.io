@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+{% assign event = page %}
+
+{% if page.ticket_url and page.end >= site.time %}
+  <div class='pull-right'>
+    <a href='{{page.ticket_url}}' class='btn btn-primary'>
+      <i class='fa fa-ticket'></i>
+      Get a ticket: {{page.ticket_price}}
+    </a>
+  </div>
+{% endif %}
+
+
+<p>
+  <strong>When:</strong> {% include event_dates.html %}
+  <br/>
+  <strong>Where:</strong> <a href='https://www.google.co.uk/maps/search/{{page.location}}'>{{ page.location }}</a>
+  <br/>
+  <strong>Website:</strong> <a href='{{page.website}}'>{{ page.website }}</a>
+</p>
+
+{% for video in page.youtube %}
+  {% include youtube.html id=video %}
+{% endfor %}
+
+{{content}}
