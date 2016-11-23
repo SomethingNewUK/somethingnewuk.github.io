@@ -20,7 +20,7 @@ description: Details of Something New events
 ## Past Events
 {% assign events = site.events | sort: "end" | reverse %}
 <ul>
-  {% for event in site.events %}
+  {% for event in events %}
     {% if event.end < site.time %}
       {% include event_index.html %}
     {% endif %}
