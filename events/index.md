@@ -9,20 +9,20 @@ description: Details of Something New events
 </a>
 
 ## Upcoming Events
-<ul class="thumbnails events">
+<ul>
   {% for event in site.events %}
     {% if event.end >= site.time %}
-      {% include event_thumbnail.html %}
+      {% include event_index.html %}
     {% endif %}
   {% endfor %}
 </ul>
 
 ## Past Events
 {% assign events = site.events | sort: "end" | reverse %}
-<ul class="thumbnails events">
+<ul>
   {% for event in site.events %}
     {% if event.end < site.time %}
-      {% include event_thumbnail.html %}
+      {% include event_index.html %}
     {% endif %}
   {% endfor %}
 </ul>
