@@ -26,4 +26,10 @@ layout: page
   {% include youtube.html id=video %}
 {% endfor %}
 
+
+{% if page.audio %}
+  <audio src='{{page.audio}}' controls><a href='{{page.audio}}'>Download Audio</a></audio>
+{% endif %}
+
+
 {{content}}
