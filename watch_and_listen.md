@@ -4,7 +4,7 @@ title: Watch &amp; Listen
 
 ## Videos
 
-If you'd like to know more about what we do, how and why we do it, check out the videos below. 
+If you'd like to know more about what we do, how and why we do it, check out the videos below. There are also a load of videos linked from our [previous events](/events).
 
 <button class='btn btn-primary btn-lg' href='https://www.youtube.com/playlist?list=PLkjB3PiY2IDx1oeSsttuY0qAgOeZy-aVD'><i class='fa fa-youtube'></i> Subscribe to our Youtube Playlist</button>
 
@@ -14,17 +14,6 @@ James gives his answers to the ITV Leaders' Debate questions on Youtube. Who nee
 
 {% include youtube.html id="IuGsN3Fywhc" %}
 
-### Open Data Institute Friday Lunchtime Lecture: "Data for Democracy"
-
-James talks about the open source and data publishing aspects of Something New, including the manifesto and how we publish our finances.
-
-{% include youtube.html id="g15FhQkQ6IQ" %}
-
-### "How to stand for Parliament" at Electromagnetic Field 2014
-
-James talks about deciding to stand for election, what he's learned so far about how to do it, and why we should all be stepping up.
-
-{% include youtube.html id="X7BLpS4cM4o" %}
 ## Podcasts
 
 The Open Revolution podcast is an independent, semi-regular podcast where James and interviewer Charlie (and occasionally others) talk about the OpenPolitics Manifesto, the open-source manifesto adopted by Something New. Each episode focuses on one particular area of policy, along with some discussion of current issues.
