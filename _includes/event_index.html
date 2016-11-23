@@ -2,6 +2,9 @@
   {% if event.youtube %}
     <i class='fa fa-video-camera'></i>
   {% endif %}
+  {% if event.audio %}
+    <i class='fa fa-volume-up'></i>
+  {% endif %}
   <a href='{{event.url}}'>{{ event.title }}</a>
   <small>{% include event_dates_short.html %}</small>
 </li>
