@@ -39,7 +39,7 @@ defaults:
     scope:
       type: "events"
     values:
-      layout: "page"
+      layout: "event"
   -
     scope:
       type: "elections"
