@@ -1,4 +1,7 @@
 <li>
+  {% if event.youtube %}
+    <i class='fa fa-video-camera'></i>
+  {% endif %}
   <a href='{{event.url}}'>{{ event.title }}</a>
   <small>{% include event_dates_short.html %}</small>
 </li>
