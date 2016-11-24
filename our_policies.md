@@ -50,7 +50,7 @@ As we already have more fossil fuels than we can burn, we will [ban fossil fuel 
 
 ### The NHS
 
-We believe that the [NHS should remain free to everyone in the UK](/manifesto/health.html#depoliticisation-and-protection-of-the-national-health-service), and that it should be removed from the hands of politicians who insist on top-down reform every time the ruling party changes. Instead, the NHS should be an independent publicly-owned body, with its own constitution and democratic governance, with a primary focus on the health of the nation.
+We believe that the [NHS should remain free to everyone in the UK](/manifesto/health.html#protect-the-national-health-service), and that it should be removed from the hands of politicians who insist on top-down reform every time the ruling party changes. Instead, the NHS should be an independent publicly-owned body, with its own constitution and democratic governance, with a primary focus on the health of the nation.
 
 ### Public Infrastructure
 
