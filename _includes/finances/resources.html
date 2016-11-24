@@ -15,9 +15,9 @@
     <th>
       Download
     </th>
-    <th>
+    <!--<th>
       Validation
-    </th>
+    </th>-->
   </tr>
 
   {% for resource in site.data.finances.datapackage.resources %}
@@ -40,12 +40,15 @@
           CSV
         </a>
       </td>
+      <!-- commented until it works
       <td>
         {% assign csvlint = resource.links | where:"name","CSV Validation" | first %}
-        <a href='{{ csvlint.url }}'>
-          <img src="{{ csvlint.url }}.svg" alt="{{ csvlint.name }}" />
-        </a>
-      </td>
+        {% if csvlint and csvlint.url %}
+          <a href='{{ csvlint.url }}'>
+            <img src="{{ csvlint.url }}.svg" alt="{{ csvlint.name }}" />
+          </a>
+        {% endif %}
+      </td>-->
     </tr>
   {% endfor %}
   

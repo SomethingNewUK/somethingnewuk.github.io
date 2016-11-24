@@ -35,11 +35,14 @@ layout: page
 {% endif %}
 
 {% assign csvlint = resource.links | where:"name","CSV Validation" | first %}
-<div class='pull-right'>
-  <a href='{{ csvlint.url }}'>
-    <img src="{{ csvlint.url }}.svg" alt="{{ csvlint.name }}" />
-  </a>
-</div>
+{% if csvlint and csvlint.url %}
+  <!-- Commented for now until links are fixed
+  <div class='pull-right'>
+    <a href='{{ csvlint.url }}'>
+      <img src="{{ csvlint.url }}.svg" alt="{{ csvlint.name }}" />
+    </a>
+  </div>-->
+{% endif %}
 
 <a class='btn btn-primary' href='{{resource.url}}'><i class='fa fa-cloud-download'></i> Download CSV</a>
 <a class='btn btn-default' href='http://githubeditor.herokuapp.com/{{site.github.organisation}}/{{site.github.finances_repo}}/blob/gh-pages/{{resource.path}}'><i class='fa fa-edit'></i> Edit</a>
