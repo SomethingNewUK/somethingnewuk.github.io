@@ -8,7 +8,7 @@ Great! You've taken the first step towards building a better democracy. You can 
 
 To stand, we think there are just four things you need:
 
-## Enthusiam
+## Enthusiasm
 
 This is the most important thing. You need to want to do this. It's a long, thankless task, and you need to have realistic expectations about the outcome. But it's a great rewarding experience, a good way to learn about the system, and you never know, you might just change the status quo. But, you'll need to put in a lot of time so be warned!
 
