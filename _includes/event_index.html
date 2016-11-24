@@ -1,10 +1,16 @@
-<li>
-  {% if event.youtube %}
-    <i class='fa fa-video-camera'></i>
-  {% endif %}
-  {% if event.audio %}
-    <i class='fa fa-volume-up'></i>
-  {% endif %}
-  <a href='{{event.url}}'>{{ event.title }}</a>
-  <small>{% include event_dates_short.html %}</small>
-</li>
+<tr>
+  <td>
+    <a href='{{event.url}}'>{{ event.title }}</a>
+  </td>
+  <td>
+    {% if event.youtube %}
+      <i class='fa fa-video-camera'></i>
+    {% endif %}
+    {% if event.audio %}
+      <i class='fa fa-volume-up'></i>
+    {% endif %}
+  </td>
+  <td style='text-align: right'>
+    <small>{% include event_dates_short.html %}</small>
+  </td>
+</tr>
