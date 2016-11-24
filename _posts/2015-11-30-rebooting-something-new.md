@@ -10,7 +10,7 @@ the Conservatives have been busy, with everything from crushing our civil libert
 
 In the May general election, Something New won 695 votes, no mean feat for a brand new party. Paul Robinson also stood for Waverley Borough Council and for Godalming Town Council, along with his wife, Rebecca. On 11 June, we stood a candidate, Jessie Macneil-Brown, in a by-election on Tower Hamlets London Borough Council, winning 40 votes. With so many elections in such a short space of time for such a small team, we had to take a break.
 
-Having rested, recuperated and gathered our thoughts following the general election and the Labour leadership election, we are preparing to re-open the conversation about the future of British democracy. And we want you to talk to us, literally, [on our Slack channel](http://slack.somethingnew.org.uk).
+Having rested, recuperated and gathered our thoughts following the general election and the Labour leadership election, we are preparing to re-open the conversation about the future of British democracy. And we want you to talk to us, literally, [on our forum](http://discourse.somethingnew.org.uk).
 
 We still have a [number of openings](/news/2015/05/11/expanding-the-something-new-team.html) in the Something New team that we want to fill. These include: Community Manager, Campaigns Officer, Communications Officer and Treasurer. Our former Campaigns Officer and Treasurer, Alex Hilton, has since rejoined the Labour Party and we wish him all the best. Lindsey Garrett, who was intending to stand as London Mayor earlier this year has also moved on for her own reasons, and we similarly wish her well. But, that leaves us a little shorthanded.
 
