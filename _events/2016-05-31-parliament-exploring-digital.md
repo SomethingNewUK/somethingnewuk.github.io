@@ -3,8 +3,6 @@ title: "UK Parliament: Exploring Digital"
 start: 2016-05-31 11:00:00 +00:00
 end: 2016-05-31 12:30:00 +00:00
 location: Portcullis House, Westminster, London
-youtube:
- - Ci_9axyVEpA
 ---
 
 [James Smith](/people/james-smith) gave a talk titled "Open Source Democracy" as part of the UK Parliament's Exploring Digital series of internal seminars.
