@@ -9,6 +9,9 @@
     {% if event.audio %}
       <i class='fa fa-volume-up'></i>
     {% endif %}
+    {% if event.transcript %}
+      <i class='fa fa-file-text'></i>
+    {% endif %}
   </td>
   <td style='text-align: right'>
     <small>{% include event_dates_short.html %}</small>

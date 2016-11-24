@@ -6,6 +6,7 @@ location: Open Data Institute, 65 Clifton St, London, EC2A 4JE
 website: http://theodi.org/lunchtime-lectures/
 youtube:
   - g15FhQkQ6IQ
+transcript: http://somethingnew.sayit.mysociety.org/open-data-institute-friday-lunchtime-lecture-data-
 ---
 
 [James Smith](/people/james-smith) gave a ODI Friday Lunchtime Lecture titled "Data for Democracy: How to Stand for Parliament with Open Data". In it he talked about the open source and data publishing aspects of Something New, including the manifesto and how we publish our finances.

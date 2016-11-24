@@ -20,7 +20,21 @@ layout: page
   <strong>Where:</strong> <a href='https://www.google.co.uk/maps/search/{{page.location}}'>{{ page.location }}</a>
   {% if page.website %}
     <br/>
-    <strong>Website:</strong> <a href='{{page.website}}'>{{ page.website }}</a>
+    {% assign url = page.website | split: "/" %}
+    <strong>Website:</strong>
+    <a href='{{page.website}}'>
+      {{ url[2] }}
+      <i class='fa fa-external-link'></i>
+    </a>
+  {% endif %}
+  {% if page.transcript %}
+    <br/>
+    {% assign url = page.transcript | split: "/" %}
+    <strong>Transcript:</strong>
+    <a href='{{page.transcript}}'>
+      {{ url[2] }}
+      <i class='fa fa-external-link'></i>
+    </a>
   {% endif %}
 </p>
 
