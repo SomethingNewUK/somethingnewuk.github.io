@@ -18,8 +18,10 @@ layout: page
   <strong>When:</strong> {% include event_dates.html %}
   <br/>
   <strong>Where:</strong> <a href='https://www.google.co.uk/maps/search/{{page.location}}'>{{ page.location }}</a>
-  <br/>
-  <strong>Website:</strong> <a href='{{page.website}}'>{{ page.website }}</a>
+  {% if page.website %}
+    <br/>
+    <strong>Website:</strong> <a href='{{page.website}}'>{{ page.website }}</a>
+  {% endif %}
 </p>
 
 {% for video in page.youtube %}
