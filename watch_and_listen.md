@@ -6,7 +6,7 @@ title: Watch &amp; Listen
 
 If you'd like to know more about what we do, how and why we do it, check out the videos below. There are also a load of videos linked from our [previous events](/events).
 
-<button class='btn btn-primary btn-lg' href='https://www.youtube.com/playlist?list=PLkjB3PiY2IDx1oeSsttuY0qAgOeZy-aVD'><i class='fa fa-youtube'></i> Subscribe to our Youtube Playlist</button>
+<a class='btn btn-primary btn-lg' href='https://www.youtube.com/playlist?list=PLkjB3PiY2IDx1oeSsttuY0qAgOeZy-aVD'><i class='fa fa-youtube'></i> Subscribe to our Youtube Playlist</a>
 
 ### Something New: ITV Leaders' Debate
 
