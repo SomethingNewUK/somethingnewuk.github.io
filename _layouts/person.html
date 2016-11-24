@@ -10,7 +10,7 @@ layout: page
 <div class='pull-right' style="margin-left: 20px">
 
   {% if person.image or page.image %}
-    <img src='{{person.image}}{{page.image}}' class='biography-image' alt='{{person.name}}'/>
+    <img src='{{person.image}}{{page.image}}' class='biography-image' alt='{{person.name}}{{page.name}}'/>
   {% endif %}
 
   <div style='text-align: center'>
@@ -33,7 +33,7 @@ layout: page
 
     {% assign github = person.contact_details | where: "type", "github" %}
     {% if github %}
-      <a href='https://github.com/{{twitter[0]["value"]}}'><i class='fa fa-2x fa-github-square'></i></a>
+      <a href='https://github.com/{{github[0]["value"]}}'><i class='fa fa-2x fa-github-square'></i></a>
     {% endif %}
 
     {% for link in person.links %}
