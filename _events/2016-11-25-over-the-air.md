@@ -4,11 +4,11 @@ start: 2016-11-25 11:30:00 +00:00
 end: 2016-11-25 12:25:00 +00:00
 location: St. John’s Hoxton, London
 website: http://overtheair.org
-ticket_url: https://ti.to/ota/ota16
-ticket_price: £0
+youtube:
+ - egoZqx0twog
 ---
 
-[James Smith](/people/james-smith) is speaking at Over The Air, the popular technology conference, about open source democracy. His talk starts at 11.30am on the first day of the two-day conference.
+[James Smith](/people/james-smith) spoke at Over The Air, the popular technology conference, about open source democracy.
 
 ## Talk Description
 
