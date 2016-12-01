@@ -3,15 +3,23 @@
   a donor's name.
 </p>
 
+{% assign total = 0 %}
 {% assign lastyear = "0" %}
 {% for row in data_table %}
   {% assign lastyear = year %}
   {% assign year = row.date | split: '-' | first %}
   {% if year != lastyear %}
     {% unless forloop.first %}
+      <tr>
+        <td></td>
+        <td><strong>{{ year }} total income</strong></td>
+        <td><strong>£{{annual_total}}</strong></td>
+        <td></td>
+      </tr>
       </table>
     {% endunless %}
     <h2>{{ year }}</h2>
+    {% assign annual_total = 0 %}
     <table class='table table-striped'>
       <tr>
         <th>Date</th>
@@ -24,9 +32,21 @@
     <td>{{row.date}}</td>
     <td>{{row.name}}</td>
     <td>£{{row.amount}}</td>
+    {% assign annual_total = annual_total | plus: row.amount %}
+    {% assign total = total | plus: row.amount %}
     <td>{{row.ec_category}}</td>
   </tr>
   {% if forloop.last %}
+    <tr>
+      <td></td>
+      <td><strong>{{ year }} total income</strong></td>
+      <td><strong>£{{annual_total}}</strong></td>
+      <td></td>
+    </tr>
     </table>
   {% endif %}
 {% endfor %}
+
+<p>
+  <strong>Overall Total Income: £{{total}}</strong>
+</p>
