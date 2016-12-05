@@ -68,12 +68,14 @@ defaults:
       type: "pages"
     values:
       layout: "manifesto_local_policy"
+      editable: true
   -
     scope:
       path: "manifesto"
       type: "pages"
     values:
       layout: "manifesto_policy"
+      editable: true
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
