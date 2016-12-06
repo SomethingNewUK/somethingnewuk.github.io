@@ -29,14 +29,14 @@
         {{ resource.schema }}
       </td>
       <td>
-        <a href='{{ resource.path | split:"." | first }}.html'>
-          <i class='fa fa-search'></i>
+        <a href='{{ resource.path | split:"." | first }}.html' title="View data">
+          <i class='fa fa-search' aria-hidden="true"></i>
           View
         </a>
       </td>
       <td>
-        <a href='{{resource.url}}'>
-          <i class='fa fa-cloud-download'></i>
+        <a href='{{resource.url}}' title="Download">
+          <i class='fa fa-cloud-download' aria-hidden="true"></i>
           CSV
         </a>
       </td>

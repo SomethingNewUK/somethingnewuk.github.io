@@ -4,13 +4,13 @@
   </td>
   <td>
     {% if event.youtube %}
-      <i class='fa fa-video-camera'></i>
+      <i class='fa fa-video-camera' aria-hidden="true" title="Video"></i>
     {% endif %}
     {% if event.audio %}
-      <i class='fa fa-volume-up'></i>
+      <i class='fa fa-volume-up' aria-hidden="true" title="Audio"></i>
     {% endif %}
     {% if event.transcript %}
-      <i class='fa fa-file-text'></i>
+      <i class='fa fa-file-text' aria-hidden="true" title="Transcript"></i>
     {% endif %}
   </td>
   <td style='text-align: right'>
