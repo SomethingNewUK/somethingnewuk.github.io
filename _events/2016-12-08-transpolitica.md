@@ -2,13 +2,13 @@
 title: "Transpolitica 2016"
 start: 2016-12-03 09:15:00 +01:00
 end: 2016-12-03 17:30:00 +01:00
-location:  Birkbeck College, Torrington Square, London, WC1E 7HX
-ticket_url: https://www.meetup.com/London-Futurists/events/233996384/
+location: Clore Management Centre, Torrington Square, London, WC1E 7HX
 website: https://transpolitica.org/
-ticket_price: £15
+youtube:
+ - 0wvZtQ0FcZk
 ---
 
-[James Smith](/people/james-smith) is speaking in the afternoon session at Transpolitica 2016, an event about the future of politics and democracy.
+[James Smith](/people/james-smith) spoke at Transpolitica 2016, an event about the future of politics and democracy organised by the London Futurists group.
 
 ## Talk Description
 
