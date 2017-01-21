@@ -3,6 +3,12 @@ layout: page
 ---
 
 <div class="container">
+  
+  <div role='navigation'>
+    <ul id='toc'>
+    </ul>
+  </div>
+
   <div class="policy">
     {{content}}
   </div>
@@ -41,5 +47,16 @@ layout: page
     {% endif %}  
   </ul>
   
+  <script>
+    headings = document.getElementsByTagName("h2")
+    for (i in headings) {
+      heading = headings[i];
+      if (heading.id) {
+        li = "<li><a href='#" + heading.id + "'>" + heading.textContent + "</a></li>";
+        document.getElementById("toc").innerHTML += li;
+      }
+    }
+  </script>
+    
 </div>
 
