@@ -11,11 +11,4 @@ describe "manifesto" do
     end
   end
 
-  it "should generate a TOC for each page" do
-    File.open("_site/manifesto/communications.html") do |file|
-      html = file.read
-      expect(html).to have_tag 'a', text: "Internet Freedom", with: {href: "#internet-freedom"}
-    end
-  end
-
 end
