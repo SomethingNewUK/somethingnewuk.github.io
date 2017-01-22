@@ -28,6 +28,6 @@ Vote against division. Vote for humanity to work together. Vote Remain.
 
 You could also;
 
-* [Take our pledge to vote remain on June 23](https://voteremain.somethingnew.org.uk/)
+* [Take our pledge to vote remain on June 23]()
 * Check out [DiEM25](http://diem25.org), a movement for democratic reform of the EU, and sign their petition
 * [Call your Nan](http://www.callyournan.com/) to talk about the vote
