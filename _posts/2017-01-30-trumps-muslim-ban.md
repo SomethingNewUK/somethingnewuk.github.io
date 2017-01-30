@@ -43,6 +43,6 @@ It is hugely counter-productive, and it reinforces the idea, expressed more than
 
 Theresa May initially refused to condemn the ban when questioned repeatedly on it. She later said "We do not agree with this kind of approach and it is not one we will be taking." She added that she would appeal to the United States if it became clear it affected British citizens, despite, at that point, it being apparent that it did. In fact, it has been estimated that more than 250,000 Britons are affected by the ban. 
 
-Meanwhile, world leaders such as Canada's Justin Trudeau, France's Francois Hollande, and Germany's Angela Merkel all took far stronger stances. We must do the same.
+Meanwhile, world leaders such as Canada's [Justin Trudeau](https://twitter.com/JustinTrudeau/status/825438460265762816), France's [Francois Hollande](https://www.theguardian.com/us-news/2017/jan/29/global-fury-donal-trump-us-ban-immigration-muslim-countries), and Germany's [Angela Merkel](http://www.independent.co.uk/news/world/europe/donald-trump-muslim-ban-germany-angela-merkel-immigration-refugee-executive-order-a7551641.html) all took far stronger stances. We must do the same.
 
 Contact James via [email](mailto:james.smith@somethingnew.org.uk) or [Twitter](https://twitter.com/Floppy) if you have any queries about the letter, or wish to become a signatory.
