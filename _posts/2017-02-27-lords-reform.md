@@ -10,7 +10,11 @@ featured_image:
 ---
 
 {: .tldr}
-Unfortunately the inquiry is very limited to suggestions of how to reduce the size of the Lords, so a lot of the manifesto stuff would be ignored. I've had a stab at a first draft of a response. Let me know your thoughts:
+Reducing the size of the House of Lords misses the point - we need bold reform of Parliament's upper chamber.
+
+[An inquiry set up by the Lord's Speaker committee](http://www.parliament.uk/business/committees/committees-a-z/other-committees/size-of-house-committee/news-parliament-2015/size-of-house-inquiry-launched/) invited the public to submit thoughts on how to cut the size of the House of Lords. We're very keen on reform of the House of Lords, considering it to be woefully undemocratic, but reducing it's size is a pittifully poor substitute for proper form.
+
+Nevertheless, we put together a response to the inquiry, which we wanted to share. For more on how we would reform the House of Lords, see [our manifesto](https://somethingnew.org.uk/manifesto/democracy#house-of-lords-reform).
 
 > 1. We are disappointed that with such strong support for fundamental reform to the House of Lords this inquiry is not considering the clear public appetite. Despite this, we will limit our submission to those areas outlined in the consultation document.
 
