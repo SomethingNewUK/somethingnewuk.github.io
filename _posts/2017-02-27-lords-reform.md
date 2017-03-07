@@ -3,10 +3,10 @@ title: Lords Inquiry: A Missed Opportunity
 authors:
   - philip-john
 featured_image:
-  url: https://farm4.staticflickr.com/3907/14363658010_9c72fb061f_z_d.jpg
-  alt: Open Revolution
-  attribution: "'Open Revolution' by James Smith"
-  link: https://www.flickr.com/photos/r-j-smith/14363658010
+  url: https://c1.staticflickr.com/9/8162/7609364510_7a96d6fdd4_z.jpg
+  alt: House of Lords
+  attribution: "'house of lords' by openDemocracy"
+  link: https://www.flickr.com/photos/opendemocracy/7609364510
 ---
 
 {: .tldr}
