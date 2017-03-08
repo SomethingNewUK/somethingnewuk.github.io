@@ -1,5 +1,5 @@
 ---
-title: Lords Inquiry: A Missed Opportunity
+title: "Lords Inquiry: A Missed Opportunity"
 authors:
   - philip-john
 featured_image:
