@@ -28,7 +28,7 @@ Improving education is important for improving our workforce and matching the de
 
 We emphatically reject the chancellor's assertion that "choice is the key to excellence in education" and disagree with the expansion of the free schools programme. "Choice" in the education system is, unfortunately, a euphemism for de-regulation of state education. We would instead end the free schools program and restore local education authorities and bring all state-funded schools under LEAs with a national curriculum designed and implemented by expert teachers.
 
-Furthermore, we would [spend at least 0.8% of GDP on scientific research and development](https://somethingnew.org.uk/manifesto/science#science-funding[), fund continuing eduction](https://somethingnew.org.uk/manifesto/education#continuing-education) and introduce a [national investment bank](https://somethingnew.org.uk/manifesto/economy#national-investment-bank).
+Furthermore, we would [spend at least 0.8% of GDP on scientific research and development](https://somethingnew.org.uk/manifesto/science#science-funding), [fund continuing eduction](https://somethingnew.org.uk/manifesto/education#continuing-education) and introduce a [national investment bank](https://somethingnew.org.uk/manifesto/economy#national-investment-bank).
 
 ## Building an economy that works for everyone
 
