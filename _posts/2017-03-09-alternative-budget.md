@@ -34,7 +34,7 @@ Furthermore, we would [spend at least 0.8% of GDP on scientific research and dev
 
 An increase in free childcare for 3-4 year olds is very welcome, and we would expand this to non-working households too, to give out of work parents the opportunity to seek work or education opportunities.
 
-Injecting £2bn into councils over 3 years for social care, and £425m for A&E, we would repeal the Health & Social Care Act and inject £5bn into health and social care immediately. Our policy of [nuclear disarmament](https://somethingnew.org.uk/manifesto/foreign_policy#nuclear-disarmament) would more than pay for the NHS we need.
+Injecting £2bn into councils over 3 years for social care, and £425m for A&E is nowhere near enough to resolve the health and social care crisis, we would repeal the Health & Social Care Act and inject £5bn into health and social care immediately. Our policy of [nuclear disarmament](https://somethingnew.org.uk/manifesto/foreign_policy#nuclear-disarmament) would more than pay for the NHS we need.
 
 While building an economy that works for everyone sounds good, it is empty rhetoric from a government that has consistently cut taxes, starving our public services of desparately needed funds. We will restore corporation tax rates to their 2010 levels and work towards equalisation with personal income tax rates for a fairer tax system.
 
