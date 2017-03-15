@@ -46,7 +46,7 @@ To finance these, we would [shut down tax havens](/manifesto/economy.html#tax-ha
 
 Global climate change poses an existential threat to our civilisation, but our current political class is not taking quick enough action. We will [decarbonise the energy supply by 2030](/manifesto/energy.html#decarbonisation) by investing in renewables and nuclear power, including new types such as Thorium power.
 
-As we already have more fossil fuels than we can burn, we will [ban fossil fuel extraction for combustion purposes](/manifesto/energy.html#fossil-fuel-industry), and [end subsidies for fossil fuel companies](/manifesto/environment.html#subsidies). We would embark on a national program of [home insulation and efficiency upgrades](/manifesto/environment.html#home-insulation) to reduce energy demand, and [introduce a carbon currency](/manifesto/environment.html#carbon-rationing) to equitably allocate and reduce carbon emissions over time. We would also [ban new fossil fuel vehicles after 2029](/manifesto/transport.html#removal-of-fossil-fuels).
+As we already have more fossil fuels than we can burn, we will [ban fossil fuel extraction for combustion purposes](/manifesto/energy.html#fossil-fuel-industry), and [end subsidies for fossil fuel companies](/manifesto/environment.html#subsidies). We would embark on a national program of [home insulation and efficiency upgrades](/manifesto/environment.html#home-insulation) to reduce energy demand, and [introduce a carbon currency](/manifesto/environment.html#carbon-budgets) to equitably allocate and reduce carbon emissions over time. We would also [ban new fossil fuel vehicles after 2029](/manifesto/transport.html#removal-of-fossil-fuels).
 
 ### The NHS
 

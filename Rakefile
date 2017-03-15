@@ -13,7 +13,8 @@ end
 
 task :htmlproofer => :rebuild do
   ignored = [
-    "http://githubeditor.herokuapp.com"
+    "https://votebot.openpolitics.org.uk",
+    "http://somethingnew-piwik.herokuapp.com"
   ]
   HTMLProofer.check_directory("./_site", 
     typhoeus: {ssl_verifypeer: false, timeout: 30}, 
