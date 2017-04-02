@@ -9,14 +9,19 @@
         </a>
       </h4>
     </div>
-    <div id="{{election.id}}" class="panel-collapse collapse {% if today < election.end_date %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
+    <div id="{{election.id}}" class="panel-collapse collapse {% if true %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
       <div class="panel-body">
         <div class='row'>
-          {% include election-candidate.html candidacy_id=election.id %}
           {% for sub_election in site.data.popolo-data.elections %}
             {% if sub_election[1].parent_id == election.id %}
               {% assign id = sub_election[1].id %}
-              {% include election-candidate.html candidacy_id=id %}
+              {% include election-candidate.html candidacy_id=id %}              
+              {% for sub_sub_election in site.data.popolo-data.elections %}
+                {% if sub_sub_election[1].parent_id == sub_election[1].id %}
+                  {% assign id = sub_sub_election[1].id %}
+                  {% include election-candidate.html candidacy_id=id %}
+                {% endif %}
+              {% endfor %}
             {% endif %}
           {% endfor %}
         </div>
