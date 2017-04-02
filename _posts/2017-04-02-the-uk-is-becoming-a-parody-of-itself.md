@@ -14,7 +14,7 @@ Whatever people's sensible reasons for the Brexit vote, we are leaving them far 
 
 The few days since the triggering of Article 50 has seen an outpouring of ridiculous ideas, as those who wish to take us back to some imaginary "better time" in the past have been emboldened to say whatever they want. Let's list a few:
 
-* We're considering spending half a billion pounds on [redesigning passports](http://www.telegraph.co.uk/news/2017/04/02/blue-passports-make-return-home-office-500-million-post-brexit/). I cannot find the words to express how  pointless this is while we cut life-saving services which could dearly use the money.
+* The tabloids are getting overexcited about a [passport redesign](http://www.telegraph.co.uk/news/2017/04/02/blue-passports-make-return-home-office-500-million-post-brexit/) because somehow they're better if they're blue. The story is [pretty much 100% wrong](https://www.johnband.org/blog/2017/04/02/dont-believe-passport-story-til-bus/), but their manufactured hysteria over the colour is sadly real.
 
 * Some people, like Simon Heffer in the Telegraph are suggesting that we [bring back Imperial units](http://www.telegraph.co.uk/news/2017/04/01/now-sovereign-nation-must-bring-back-imperial-units/). He says they were imposed on us by the EEC, which is an outright lie - [the process was already years underway by then](https://en.wikipedia.org/wiki/Metrication_in_the_United_Kingdom).
 
