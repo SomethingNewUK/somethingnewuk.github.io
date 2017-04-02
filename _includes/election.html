@@ -9,7 +9,7 @@
         </a>
       </h4>
     </div>
-    <div id="{{election.id}}" class="panel-collapse collapse {% if true %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
+    <div id="{{election.id}}" class="panel-collapse collapse {% if today < election.end_date %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
       <div class="panel-body">
         <div class='row'>
           {% for sub_election in site.data.popolo-data.elections %}
