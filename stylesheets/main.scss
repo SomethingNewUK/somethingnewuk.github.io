@@ -33,9 +33,7 @@ body {
     &::after {
     	content: "";
     	display: block;
-    	height: 15px;
-    	margin-top: 20px;
-    	margin-bottom: 1.5em;
+    	height: 10px;
     	background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAALElEQVQIW2NkwAJKS0v/M6KLgwS7u7sZUSRggiDFcAlkQbgEuiBYApsgSAIAGVcWZWur2rIAAAAASUVORK5CYII=") repeat scroll 0% 0%;
     }
   }
