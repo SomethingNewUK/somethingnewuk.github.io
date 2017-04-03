@@ -1,19 +1,15 @@
-{% for c in site.data.popolo-data.candidacies %}
-  {% if c[1].id == include.candidacy_id %}
-    {% assign candidacy = c[1] %}
-    {% assign event_id = c[0] %}
+{% assign candidacy = site.data.popolo-data.candidacies[include.candidacy_id] %}
+{% if candidacy %}
+  {% assign e = site.data.popolo-data.elections[include.candidacy_id] %}
+  
+  {% for tmp in site.data.popolo-data.elections %}
+    {% if tmp[1].id == e.parent_id %}
+      {% assign p_e = tmp[1] %}
+    {% endif %}
+  {% endfor %}
 
-    {% assign link = candidacy.links | where: "note","Campaign page" | first %}
-    {% assign e = site.data.popolo-data.elections[event_id] %}
-    {% for tmp in site.data.popolo-data.elections %}
-      {% if tmp[1].id == e.parent_id %}
-        {% assign p_e = tmp[1] %}
-      {% endif %}
-    {% endfor %}
-
-    {% capture sub %}{{p_e.organization}}<br/>{{e.location.name}}{% endcapture %}
-    
-    {% include headshot.html person_id=candidacy.person_id link=link.url subtitle=sub %}
-
-  {% endif %}
-{% endfor %}
+  {% capture sub %}{{p_e.organization}}<br/>{{e.location.name}}{% endcapture %}
+  {% assign link = candidacy.links | where: "note","Campaign page" | first %}
+  
+  {% include headshot.html person_id=candidacy.person_id link=link.url subtitle=sub %}
+{% endif %}

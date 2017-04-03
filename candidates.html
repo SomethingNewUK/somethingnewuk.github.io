@@ -2,12 +2,12 @@
 title: Candidates
 ---
 
-{% capture arr %}{% for election_hash in site.data.popolo-data.elections %}{% if election_hash[1].id %}{{ election_hash[0] }}|{% endif %}{% endfor %}{% endcapture %}
-{% assign elections = arr | split: '|' | sort | reverse %}
-
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  {% for election_id in elections %}
-    {% include election.html election_id=election_id %}
+  {% for e in site.data.popolo-data.elections %}
+    {% unless e[1].parent_id %}
+      {% assign tmp = e[0] %}
+      {% include election.html election_id=tmp %}
+    {% endunless %}
   {% endfor %}
 </div>
 

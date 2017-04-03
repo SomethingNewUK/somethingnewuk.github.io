@@ -1,32 +1,29 @@
 {% assign today = "now" | date: "%Y-%m-%d" %}
 {% assign election = site.data.popolo-data.elections[include.election_id] %}
-{% if election.parent_id == null %}
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="{{election.id}}-heading">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{election.id}}" aria-expanded="{{ today < election.end_date }}" aria-controls="{{election.id}}">
-          <h4>{{ election.name }}</h4>
-        </a>
-      </h4>
-    </div>
-    <div id="{{election.id}}" class="panel-collapse collapse {% if today < election.end_date %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
-      <div class="panel-body">
-        <div class='row'>
-          {% for sub_election in site.data.popolo-data.elections %}
-            {% if sub_election[1].parent_id == election.id %}
-              {% assign id = sub_election[1].id %}
-              {% include election-candidate.html candidacy_id=id %}              
-              {% for sub_sub_election in site.data.popolo-data.elections %}
-                {% if sub_sub_election[1].parent_id == sub_election[1].id %}
-                  {% assign id = sub_sub_election[1].id %}
-                  {% include election-candidate.html candidacy_id=id %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-        </div>
+<div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="{{election.id}}-heading">
+    <h4 class="panel-title">
+      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{election.id}}" aria-expanded="{{ today < election.end_date }}" aria-controls="{{election.id}}">
+        <h4>{{ election.name }}</h4>
+      </a>
+    </h4>
+  </div>
+  <div id="{{election.id}}" class="panel-collapse collapse {% if today < election.end_date %}in{% endif %}" role="tabpanel" aria-labelledby="{{election.id}}-heading">
+    <div class="panel-body">
+      <div class='row'>
+        {% for sub_election in site.data.popolo-data.elections %}
+          {% if sub_election[1].parent_id == election.id %}
+            {% assign tmp = sub_election[0] %}
+            {% include election-candidate.html candidacy_id=tmp %}
+            {% for sub_sub_election in site.data.popolo-data.elections %}
+              {% if sub_sub_election[1].parent_id == sub_election[1].id %}
+                {% assign tmp = sub_sub_election[0] %}
+                {% include election-candidate.html candidacy_id=tmp %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
-
-{% endif %}
+</div>
