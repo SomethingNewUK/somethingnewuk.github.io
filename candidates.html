@@ -2,12 +2,17 @@
 title: Candidates
 ---
 
+{% capture dates %}{% for e in site.data.popolo-data.elections %}{{e[1].end_date}}|{%endfor%}{% endcapture %}
+{% assign sorted_dates = dates | split: "|" | uniq | sort | reverse %}
+
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  {% for e in site.data.popolo-data.elections %}
-    {% unless e[1].parent_id %}
-      {% assign tmp = e[0] %}
-      {% include election.html election_id=tmp %}
-    {% endunless %}
+  {% for date in sorted_dates %}
+    {% for e in site.data.popolo-data.elections %}
+      {% if e[1].end_date == date and e[1].parent_id == null %}
+        {% assign tmp = e[0] %}
+        {% include election.html election_id=tmp %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
 
