@@ -5,7 +5,8 @@ layout: page
 <div class='candidate well pull-right'>
   {% assign candidacy = site.data.popolo-data.candidacies[page.candidacy_id] %}
   {% assign person    = site.data.popolo-data.people[candidacy.person_id] %}
-  {% assign election  = site.data.popolo-data.elections[candidacy.event_id] %}
+  {% assign event_id  = candidacy.event_id | remove: "." %}
+  {% assign election  = site.data.popolo-data.elections[event_id] %}
   {% assign leaflet   = candidacy.links | where: "note", "Election leaflet" %}
   {% assign twitter   = person.contact_details | where: "type", "twitter" %}
 
@@ -25,6 +26,10 @@ layout: page
     <p>
       <a href='{{leaflet[0]["url"]}}'><i class='fa fa-cloud-download'></i> Download Leaflet</a>
     </p>
+  {% endif %}
+  {% if candidacy.result %}
+    Election result:<br/>
+    {{ candidacy.result.votes }} votes ({{ candidacy.result.share | times: 100 | round: 1 }}%)
   {% endif %}
   
 </div>
