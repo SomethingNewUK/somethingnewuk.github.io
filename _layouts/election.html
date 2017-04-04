@@ -35,7 +35,7 @@ layout: page
     {% endif %}
     <br/>
     <a href='{{election.result.url}}'>
-      {{ candidacy.result.votes }} votes ({{ candidacy.result.share | times: 100 | round: 1 }}%)
+      {{ candidacy.result.votes }} votes ({{ candidacy.result.share | times: 100 | round: 2 }}%)
     </a>
   {% endif %}
   
