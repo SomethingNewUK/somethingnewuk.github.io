@@ -1,7 +1,7 @@
 ---
 title: Something New is a political party dedicated to a vision of a better future for everyone in the UK
 redirect_from: /swsurrey.html
-candidacy_id: "2015-05-07-uk-general-election-south-west-surrey"
+candidacy_id: "parlsouth-west-surrey2015-05-07"
 ---
 
 ### Your Candidate:
