@@ -7,9 +7,9 @@ title: Candidates
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   {% for date in sorted_dates %}
-    {% for e in site.data.popolo-data.elections %}
-      {% if e[1].end_date == date and e[1].parent_id == null %}
-        {% assign tmp = e[0] %}
+    {% for a in site.data.popolo-data.elections %}
+      {% if a[1].end_date == date and a[1].parent_id == null %}
+        {% assign tmp = a[0] %}
         {% include election.html election_id=tmp %}
       {% endif %}
     {% endfor %}
