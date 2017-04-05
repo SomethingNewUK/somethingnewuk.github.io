@@ -29,7 +29,7 @@ title: Election Results
           <td>{{ parent.organization }}</td>
           <td>{{ e[1].location.name }}</td>
           <td>{{ candidate.name }}</td>
-          <td>{{ candidacy.result.votes }}</td>
+          <td><a href='{{ e[1].result.url }}'>{{ candidacy.result.votes }}</a></td>
           <td>{{ candidacy.result.share | times: 100 | round: 2 }}%</td>
           <td>
             {% if candidacy.result.elected %}
