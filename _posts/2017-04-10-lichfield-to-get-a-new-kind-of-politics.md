@@ -3,7 +3,7 @@ title: "Lichfield To Get a New Kind of Politics"
 authors:
   - philip-john
 featured_image:
-  url: https://c2.staticflickr.com/4/3062/2535565136_e5b6e2b313_z.jpg
+  url: https://somethingnew.org.uk/images/posts/2017/philip-john-loves-lichfield.jpg
   alt: "Philip John"
 ---
 
