@@ -1,7 +1,6 @@
 ---
+title: Finances
 ---
-
-# {{ site.data.finances.datapackage.title }}
 
 {{ site.data.finances.datapackage.description }}
 
