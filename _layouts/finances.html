@@ -2,13 +2,14 @@
 layout: page
 ---
 
-{% assign path = page.path | split:"." | first | split:"/" %}
+{% assign path = page.path | split:"/" %}
 {% assign area = path[2] %}
-{% assign type = path[3] %}
+{% assign area_id= area | replace: ".", "" %}
+{% assign type = path[3] | split:"." | first %}
 
 {% capture resource_path %}{{area}}/{{type}}.csv{% endcapture %}
 
-{% assign data_table = site.data.finances[area][type] %}
+{% assign data_table = site.data.finances[area_id][type] %}
 
 {% for r in site.data.finances.datapackage.resources %}
   {% if r.path == resource_path %}

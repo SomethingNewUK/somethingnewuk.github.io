@@ -29,7 +29,7 @@
         {{ resource.schema }}
       </td>
       <td>
-        <a href='{{ resource.path | split:"." | first }}.html' title="View data">
+        <a href='{{ resource.path | replace: ".csv", ".html" }}' title="View data">
           <i class='fa fa-search' aria-hidden="true"></i>
           View
         </a>
