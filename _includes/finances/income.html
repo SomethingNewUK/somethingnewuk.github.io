@@ -12,7 +12,7 @@
     {% unless forloop.first %}
       <tr>
         <td></td>
-        <td><strong>{{ year }} total income</strong></td>
+        <td><strong>{{ lastyear }} total income</strong></td>
         <td><strong>£{{annual_total}}</strong></td>
         <td></td>
       </tr>
@@ -39,7 +39,7 @@
   {% if forloop.last %}
     <tr>
       <td></td>
-      <td><strong>{{ year }} total income</strong></td>
+      <td><strong>{{ lastyear }} total income</strong></td>
       <td><strong>£{{annual_total}}</strong></td>
       <td></td>
     </tr>
