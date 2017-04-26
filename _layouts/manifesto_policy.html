@@ -49,7 +49,7 @@ layout: page
   
   <script>
     headings = document.getElementsByTagName("h2")
-    for (i in headings) {
+    for (var i=0; i<headings.length; i++) {
       heading = headings[i];
       if (heading.id) {
         li = "<li><a href='#" + heading.id + "'>" + heading.textContent + "</a></li>";
