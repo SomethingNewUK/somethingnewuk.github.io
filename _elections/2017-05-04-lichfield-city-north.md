@@ -8,7 +8,7 @@ candidacy_id: "localstaffordshirelichfield-city-north2017-05-04"
 
 On 4th May, Lichfield is electing new councillors to Staffordshire County Council.
 
-I’ve lived in Lichfield for over 11 years and I’m fed up of the same old political choices on the ballot paper. Electing a county counillor is important - the county takes care of things like schools, health and social care, and roads.
+I’ve lived in Lichfield for over 11 years and I’m fed up of the same old political choices on the ballot paper. Electing a county councillor is important - the county takes care of things like schools, health and social care, and roads.
 
 My decision to stand as a candidate was based on a desire for people to have more choices than the same parties who too often only appear around election time. People keep telling me they want a different choice, and they want a visible representative. That's what I'm here to be.
 
@@ -39,6 +39,6 @@ When not working from home or in one of Lichfield’s many lovely cafes, Phil en
 
 ## How can you support Phil?
 
-* Contibute to the campaign fund at [http://www.crowdfunder.co.uk/something-new-2017-local-elections](http://www.crowdfunder.co.uk/something-new-2017-local-elections)
+* Contribute to the campaign fund at [http://www.crowdfunder.co.uk/something-new-2017-local-elections](http://www.crowdfunder.co.uk/something-new-2017-local-elections)
 * Follow Phil on [Twitter](https://twitter.com/something_phil), [Facebook](https://www.facebook.com/Something-New-for-Lichfield-272674253185231/) and [Medium](https://medium.com/@something_phil).
 * [Tell Phil](mailto:philip.john@somethingnew.org.uk) what local issues you care about, your concerns and hopes for what he could do as a county councillor.
