@@ -2,14 +2,13 @@
 layout: page
 ---
 
-{% assign path = page.path | split:"/" %}
-{% assign area = path[2] %}
-{% assign area_id= area | replace: ".", "" %}
-{% assign type = path[3] | split:"." | first %}
+{% assign path = page.path | split: "/" %}
+{% assign area = path | last | replace: ".md", "" %}
+{% assign area_id = area | replace: ".", "" %}
 
-{% capture resource_path %}{{area}}/{{type}}.csv{% endcapture %}
+{% capture resource_path %}{{area}}.csv{% endcapture %}
 
-{% assign data_table = site.data.finances[area_id][type] %}
+{% assign data_table = site.data.finances[area_id] %}
 
 {% for r in site.data.finances.datapackage.resources %}
   {% if r.path == resource_path %}
@@ -29,10 +28,8 @@ layout: page
 
 <h1>{{ resource.name }}</h1>
 
-{% if resource.schema == "expenditure" %}
-  {% include finances/expenditure.html %}
-{% elsif resource.schema == "income" %}
-  {% include finances/income.html %}
+{% if resource.schema == "finances" %}
+  {% include finances/finances.html %}
 {% endif %}
 
 {% assign csvlint = resource.links | where:"name","CSV Validation" | first %}

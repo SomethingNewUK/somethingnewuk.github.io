@@ -1,3 +1,8 @@
+<p class='alert alert-info'>
+  Income rows with unnamed suppliers are where we are awaiting explicit 
+  permission to publish a donor's name.
+</p>
+
 {% assign total = 0 %}
 {% assign lastyear = "0" %}
 {% for row in data_table %}
@@ -9,7 +14,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td><strong>{{ lastyear }} total spending</strong></td>
+        <td><strong>{{ lastyear }} balance</strong></td>
         <td><strong>£{{annual_total}}</strong></td>
       </tr>
       </table>
@@ -22,7 +27,8 @@
         <th>Buyer</th>
         <th>Supplier</th>
         <th>Description</th>
-        <th>Total Paid</th>
+        <th>Amount</th>
+        <th>Balance</th>
       </tr>
   {% endif %}
   <tr>
@@ -30,22 +36,24 @@
     <td>{% if row.buyer_uri and row.buyer_uri != "" %}<a href='{{row.buyer_uri}}'>{% endif %}{{row.buyer}}{% if row.buyer_uri and row.buyer_uri != "" %}</a>{% endif %}</td>
     <td>{% if row.supplier_uri and row.supplier_uri != "" %}<a href='{{row.supplier_uri}}'>{% endif %}{{row.supplier}}{% if row.supplier_uri and row.supplier_uri != "" %}</a>{% endif %}</td>
     <td><a href='http://www.unspsc.org/search-code/default.aspx?CSS={{row.unspsc_code}}'>{{row.description}}</a></td>
-    <td>£{{row.total_paid}}</td>
-    {% assign annual_total = annual_total | plus: row.total_paid %}
-    {% assign total = total | plus: row.total_paid %}
+    <td>£{{row.amount}}</td>
+    <td>£{{row.balance}}</td>
+    {% assign annual_total = annual_total | plus: row.amount %}
+    {% assign total = total | plus: row.amount %}
   </tr>
   {% if forloop.last %}
     <tr>
       <td></td>
       <td></td>
       <td></td>
-      <td><strong>{{ lastyear }} total spending</strong></td>
+      <td><strong>{{ lastyear }} balance</strong></td>
       <td><strong>£{{annual_total}}</strong></td>
+      <td></td>
     </tr>
     </table>
   {% endif %}
 {% endfor %}
 
 <p>
-  <strong>Overall Total Spending: £{{total}}</strong>
+  <strong>Overall Balance: £{{total}}</strong>
 </p>
