@@ -1,7 +1,6 @@
 ---
 title: Lichfield City North
-redirect_from: /lichfield-city-north.html
-candidacy_id: "local.staffordshire.lichfield-city-north.2017-05-04"
+candidacy_id: "localstaffordshirelichfield-city-north2017-05-04"
 ---
 
 ## Meet Philip John
