@@ -3,32 +3,23 @@
   permission to publish a donor's name.
 </p>
 
-{% assign total = 0 %}
 {% assign lastyear = "0" %}
 {% for row in data_table %}
   {% assign lastyear = year %}
   {% assign year = row.date | split: '-' | first %}
   {% if year != lastyear %}
     {% unless forloop.first %}
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><strong>{{ lastyear }} balance</strong></td>
-        <td><strong>£{{annual_total}}</strong></td>
-      </tr>
       </table>
     {% endunless %}
     <h2>{{ year }}</h2>
-    {% assign annual_total = 0 %}
     <table class='table table-striped'>
       <tr>
         <th>Date</th>
         <th>Buyer</th>
         <th>Supplier</th>
         <th>Description</th>
-        <th>Amount</th>
-        <th>Balance</th>
+        <th>Amount (GBP)</th>
+        <th>Balance (GBP)</th>
       </tr>
   {% endif %}
   <tr>
@@ -36,24 +27,10 @@
     <td>{% if row.buyer_uri and row.buyer_uri != "" %}<a href='{{row.buyer_uri}}'>{% endif %}{{row.buyer}}{% if row.buyer_uri and row.buyer_uri != "" %}</a>{% endif %}</td>
     <td>{% if row.supplier_uri and row.supplier_uri != "" %}<a href='{{row.supplier_uri}}'>{% endif %}{{row.supplier}}{% if row.supplier_uri and row.supplier_uri != "" %}</a>{% endif %}</td>
     <td><a href='http://www.unspsc.org/search-code/default.aspx?CSS={{row.unspsc_code}}'>{{row.description}}</a></td>
-    <td>£{{row.amount}}</td>
-    <td>£{{row.balance}}</td>
-    {% assign annual_total = annual_total | plus: row.amount %}
-    {% assign total = total | plus: row.amount %}
+    <td style='text-align: right; font-family: monospace'>{{row.amount | money_without_currency }}</td>
+    <td style='text-align: right; font-family: monospace'>{{row.balance | money_without_currency }}</td>
   </tr>
   {% if forloop.last %}
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><strong>{{ lastyear }} balance</strong></td>
-      <td><strong>£{{annual_total}}</strong></td>
-      <td></td>
-    </tr>
     </table>
   {% endif %}
 {% endfor %}
-
-<p>
-  <strong>Overall Balance: £{{total}}</strong>
-</p>
