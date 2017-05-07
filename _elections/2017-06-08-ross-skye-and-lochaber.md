@@ -22,8 +22,8 @@ I'm Lewis Sturrock, a Lecturer in Computing & Digital Media, contributer to char
 
 ### Get in touch:
 
-Email: [lewis.sturrockh@somethingnew.org.uk](mailto:lewis.sturrock@somethingnew.org.uk)
+Email: [lewis.sturrock@somethingnew.org.uk](mailto:lewis.sturrock@somethingnew.org.uk)
 
 Twitter: [@VoteAmazing](https://twitter.com/VoteAmazing) or [@havesomenew](https://twitter.com/havesomenew) for official campaign news
 
-Facebook: [facebook.com/somethingnewuk](http://facebook.com/somethingnewuk)
+Facebook: [facebook.com/VoteAmazing](http://www.facebook.com/VoteAmazing) or Facebook: [facebook.com/somethingnewuk](http://facebook.com/somethingnewuk)
