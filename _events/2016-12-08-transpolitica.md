@@ -6,6 +6,8 @@ location: Clore Management Centre, Torrington Square, London, WC1E 7HX
 website: https://transpolitica.org/
 youtube:
  - 0wvZtQ0FcZk
+people:
+ - james-smith
 ---
 
 [James Smith](/people/james-smith) spoke at Transpolitica 2016, an event about the future of politics and democracy organised by the London Futurists group.

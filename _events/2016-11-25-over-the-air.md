@@ -8,6 +8,8 @@ youtube:
  - 31RrY05lsdM
  - egoZqx0twog
 transcript: http://somethingnew.sayit.mysociety.org/something-new-in-2-minutes
+people:
+ - james-smith
 ---
 
 [James Smith](/people/james-smith) spoke at Over The Air, the popular technology conference, about open source democracy.

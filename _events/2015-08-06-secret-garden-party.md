@@ -4,6 +4,8 @@ start: 2015-07-25 14:00:00 +00:00
 end: 2015-07-25 15:00:00 +00:00
 location: Abbots Ripton, Huntingdon
 website: http://www.secretgardenparty.com
+people:
+ - james-smith
 ---
 
 [James Smith](/people/james-smith) gave a talk on the Forum stage at the Secret Garden Party festival about his experiences of standing for election in May, and why he did it.

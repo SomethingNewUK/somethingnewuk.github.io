@@ -6,6 +6,10 @@ location: Media Centre, Huddersfield
 website: https://notinwestminster.wordpress.com/notwestminster-2017/
 ticket_url: https://www.eventbrite.co.uk/e/notwestminster-2017-main-event-registration-28488033475
 ticket_price: Free
+people:
+ - james-smith
+ - philip-john
+ - andrew-williams
 ---
 
 If we want a stronger local democracy, we all need to get involved in making it happen – wherever we are. Notwestminster is about finding the people, ideas and energy we need, so that we can do something practical to improve local democracy where we are.

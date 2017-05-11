@@ -5,6 +5,8 @@ end: 2017-02-21 21:00:00 +00:00
 location: Newspeak House, Bethnal Green Road, London
 ticket_url: https://attending.io/events/parliament-data-and-democracy-meetup
 ticket_price: Free
+people:
+ - james-smith
 ---
 
 An evening of short talks and conversations around Parliament, democracy and data.

@@ -4,6 +4,8 @@ start: 2016-02-15 20:00:00 +00:00
 end: 2016-02-15 22:00:00 +00:00
 location: Broadbridge Heath Social Club, Horsham
 website: http://www.horsham.skepticsinthepub.org/
+people:
+ - james-smith
 ---
 
 [James Smith](/people/james-smith) presented Something New and the story of the 2015 general election to the Horsham Skeptics in the Pub group.

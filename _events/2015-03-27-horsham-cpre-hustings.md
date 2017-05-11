@@ -9,6 +9,8 @@ youtube:
  - tuLXEyn9w9s
  - 0pQ0iZA5O0s
 transcript: http://somethingnew.sayit.mysociety.org/cpre-sussex-countryside-or-concrete-horsham-hustin
+people:
+ - james-smith
 ---
 
 [James Smith](/people/james-smith), as Something New candidate for Horsham in 2015, joined in the Horsham CPRE "Countryside or Concrete" Hustings along with the other candidates.
