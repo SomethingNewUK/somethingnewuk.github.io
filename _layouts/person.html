@@ -77,3 +77,15 @@ layout: page
     {% endif %}
   {% endfor %}
 </ul>
+
+<h2>Events</h2>
+
+<ul>
+  {% assign events = site.events | sort: "end" | reverse %}
+  {% for event in events %}
+    {% assign person_id = page.id | split: "/" | last %}
+    {% if event.people contains person_id  %}
+      <li class='byline'><a href='{{event.url}}'>{{event.title}}</a> {{event.start | date: '%d %B %Y' }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
