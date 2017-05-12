@@ -30,9 +30,21 @@
       {{ content }}
     </div>
 
-    <footer>
-      {% include footer.html %}
-    </footer>
+    {% if page.show_hero == true %}
+
+      {% include principles.html %}
+      
+      {% include testimonials.html %}
+
+      <footer style='margin-top: 0px'>
+        {% include footer.html %}
+      </footer>
+
+    {% else %}
+      <footer>
+        {% include footer.html %}
+      </footer>
+    {% endif %}
     
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>

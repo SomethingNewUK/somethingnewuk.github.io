@@ -1,0 +1,38 @@
+.principles {
+  
+  background-image: url(https://c2.staticflickr.com/4/3373/3485479724_533c83c72d_b.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  
+  h2 {
+    color: white;
+  }
+
+  .masonry {
+    
+    .masonry-item, .masonry-sizer {
+      
+      @media (min-width: 768px) {
+        width: 350px;      
+        margin: 5px;
+      }
+      @media (max-width: 767px) {
+        width: 90%;
+        margin-bottom: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+      } 
+    }
+
+    .masonry-item {
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding: 0px 10px;
+      background-color: rgba(223, 223, 221, 0.9);
+    }  
+
+  }
+
+}
+

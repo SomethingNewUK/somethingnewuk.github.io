@@ -3,9 +3,9 @@ redirect_from: /our_values.html
 show_hero: true
 ---
 <p class='lead' style='margin-top: 10px'>
-  Our old political options are broken, and we need new choices for the 21st century. We are building
-  a new political party that's all about working towards a better future, built on openness, collaboration and
-  the power of the Internet to connect us all.
+  Our old political options are broken, and we need new choices for the 21st century. We are
+  a new political party that's all about working towards a better future for everyone, 
+  built on openness, collaboration and the power of the Internet to connect us all.
 </p>
 
 <p>
@@ -25,24 +25,3 @@ show_hero: true
 <p style='text-align: center'>
   <small><a href='/join.html'>Not a UK voter? Want to join for free? Want more details? Click here.</a></small>
 </p>
-
-<hr/>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-<div class='row'>
-  <div class="masonry js-masonry" 
-    data-masonry-options='{ "itemSelector": ".masonry-item", "columnWidth": ".masonry-sizer", "percentPosition": true }'
-    style="margin-left: auto; margin-right: auto;">
-    <div class="masonry-sizer"></div>
-    {% for principle in site.data.principles %}
-      <div class='masonry-item'>
-        <h2>{{ principle.title }}</h2>
-        <p>
-          {{principle.text}}
-        </p>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
-{% include testimonials.html %}
