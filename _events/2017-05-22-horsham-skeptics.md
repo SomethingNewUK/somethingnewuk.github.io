@@ -3,7 +3,7 @@ title: "Horsham Skeptics: The Future of Democracy"
 start: 2017-05-22 20:00:00 +01:00
 end: 2017-05-22 22:00:00 +01:00
 location:  The Anchor Hotel, 3 Market Square, Horsham, RH12 1EU
-website: http://www.horsham.skepticsinthepub.org/Event.aspx/11331/The-Future-of-Democracy-TBC
+website: http://horsham.skepticsinthepub.org/Event.aspx/11331/The-Future-of-Democracy-
 people:
  - james-smith
 ---
