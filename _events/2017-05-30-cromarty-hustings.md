@@ -7,7 +7,3 @@ website: http://s3.spanglefish.com/s/4810/documents/hustingsx.pdf
 people:
  - lewis-sturrock
 ---
-
-This will be your opportunity to come and hear from your prospective Members of Parliament. This event will also be streamed live on YouTube, courtesy of Nevis Radio, for people who want to attend, but are unable to in person.
-
-Questions should be sent in advance to membership@lochaberchamber.co.uk
