@@ -38,7 +38,7 @@ Ideologically driven austerity has punished many of the weakest and most vulnera
 
 We want to make the [minimum wage equal to the living wage](/manifesto/economy.html#minimum-wage), and link the two together so that a full-time job will always pay enough to live on. We would also make the [minimum wage tax-free](/manifesto/economy.html#income-tax). We would work with the EU to remove [regressive taxation such as VAT](/manifesto/economy.html#vat) that falls most heavily on the poor.
 
-We will investigate if a [universal basic income](/manifesto/economy.html#social-security) is possible, so that instead of a complex benefits system, everyone in the country receives a certain level of income, which they can then earn more on top of.
+We will investigate if a [universal basic income](/manifesto/economy.html#basic-income) is possible, so that instead of a complex benefits system, everyone in the country receives a certain level of income, which they can then earn more on top of.
 
 To finance these, we would [shut down tax havens](/manifesto/economy.html#tax-havens), and simplify the tax system to make it harder for people and companies with good accountants to avoid tax. We would also introduce a [financial transaction (Robin Hood) tax](/manifesto/economy.html#financial-transaction-tax), which can calm financial speculation and raises a large amount of money.
 
