@@ -3,7 +3,7 @@ title: "ODI Friday lunchtime lecture"
 start: 2014-11-14 13:00:00 +00:00
 end: 2014-11-14 13:50:00 +00:00
 location: Open Data Institute, 65 Clifton St, London, EC2A 4JE
-website: http://theodi.org/lunchtime-lectures/
+website: https://theodi.org/lunchtime-lectures/
 youtube:
   - g15FhQkQ6IQ
 transcript: http://somethingnew.sayit.mysociety.org/open-data-institute-friday-lunchtime-lecture-data-
