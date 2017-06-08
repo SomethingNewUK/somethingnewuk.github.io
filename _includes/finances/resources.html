@@ -7,12 +7,6 @@
       Name
     </th>
     <th>
-      Schema
-    </th>
-    <th>
-      Data
-    </th>
-    <th>
       Download
     </th>
     <!--<th>
@@ -23,19 +17,12 @@
   {% for resource in site.data.finances.datapackage.resources %}
     <tr>
       <td>
-        {{ resource.name }}
-      </td>
-      <td>
-        {{ resource.schema }}
-      </td>
-      <td>
         <a href='{{ resource.path | replace: ".csv", ".html" }}' title="View data">
-          <i class='fa fa-search' aria-hidden="true"></i>
-          View
+          {{ resource.name }}
         </a>
       </td>
       <td>
-        <a href='{{resource.url}}' title="Download">
+        <a href='{{resource.url}}' title="Download" class='btn btn-default btn-sm'>
           <i class='fa fa-cloud-download' aria-hidden="true"></i>
           CSV
         </a>
