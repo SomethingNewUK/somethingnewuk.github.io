@@ -22,4 +22,14 @@ As party treasurer, you would be helping us with one of the most crucial aspects
 
 Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
 
-##
+## National Campaign Manager
+
+When we run national campaigns, such general election or specific issue campaigns, we'll need someone to co-ordinate everything. This could include;
+
+* managing campaign-specific roles and responsibilities,
+* working with the treasurer on fundraising,
+* co-ordinating local campaign managers where necessary,
+* making sure the communications campaign is on track by working with the communications manager,
+* setting budgets with the treasurer and making sure all spending is recorded.
+
+Depending on how many people are available for a campaign, the campaign manager might be a very hands-on role, so one of the tasks of a campaign manager is to recruit new volunteers!
