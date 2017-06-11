@@ -67,3 +67,14 @@ When we run campaigns, getting the message out is one of the most important thin
 * co-ordinate social media strategy.
 
 Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Social Media Manager
+
+During a campaign, social media is one of our most powerful tools and it can easily take up a lot of time, so we're keen to have one individual take care of it. A social media manager will;
+
+* work with the communications manager on overall strategy,
+* help election candidates with social media coverage, including any training and set-up needs,
+* monitor social media channels and engage where appropriate,
+* develop our own "shareable" to try and encourage people to share our message.
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
