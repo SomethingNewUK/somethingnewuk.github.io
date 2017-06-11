@@ -33,3 +33,15 @@ When we run national campaigns, such general election or specific issue campaign
 * setting budgets with the treasurer and making sure all spending is recorded.
 
 Depending on how many people are available for a campaign, the campaign manager might be a very hands-on role, so one of the tasks of a campaign manager is to recruit new volunteers!
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Local Campaign Managers
+
+Much like the national campaign manager, a local campaign manager helps run the campaign but on a local level. Typically the local campaign manager will be the election agent for a candidate, which has [specific legal requirements](https://www.electoralcommission.org.uk/i-am-a/candidate-or-agent), but that's not always the case. A local campaign manager will;
+
+* manage a candidate's to-do list,
+* work with the communications manager to run communications with local media,
+* tracking spending and making sure it's inline with the budget, and properly recorded,
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
