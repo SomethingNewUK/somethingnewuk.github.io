@@ -78,3 +78,14 @@ During a campaign, social media is one of our most powerful tools and it can eas
 * develop our own "shareable" to try and encourage people to share our message.
 
 Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Events Co-ordinator
+
+One of our aspirations is to run regular local events. We also occasionally take part in events arranged by others and arranging this can be haphazard, causing us to miss opportunities. An events manager would;
+
+* help local supporters arrange, run and promote local meetups,
+* look out for relevant events, such as conferences or hustings, where we could send a representative,
+* recruit representatives to attend events,
+* work with the communications manager to promote our events and any events we attend.
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
