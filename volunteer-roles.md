@@ -89,3 +89,9 @@ One of our aspirations is to run regular local events. We also occasionally take
 * work with the communications manager to promote our events and any events we attend.
 
 Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Canvassers/Leafletters
+
+Possibly one of the most important roles. When we have candidates in an election, we need to spread the word and one of the best ways to do that is by distributing leaflets to, and visiting, as many households as we can in the area. This is really, really hard when a candidate is the only local party supporter. We need people who are local, or nearby, to our candidates and can spare some time to help deliver leaflets and talk to people about what Something New stands for.
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
