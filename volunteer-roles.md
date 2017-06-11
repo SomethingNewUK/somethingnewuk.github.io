@@ -45,3 +45,11 @@ Much like the national campaign manager, a local campaign manager helps run the 
 * tracking spending and making sure it's inline with the budget, and properly recorded,
 
 Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Policy Researchers
+
+Our manifesto, full of contributions by lots of different people, while full of great contributions, still has a lot of gaps. We're looking for people to research specific policy areas that we're currently missing and form a suggestion that can be contributed to the manifesto. There's a [bunch of policy areas](https://votebot.openpolitics.org.uk/ideas) ready to explore, and your research should;
+
+* look for the evidence,
+* take in multiple points of view and published research,
+* produce a policy proposal that meets the manifesto principles.
