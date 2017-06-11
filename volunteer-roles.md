@@ -53,3 +53,17 @@ Our manifesto, full of contributions by lots of different people, while full of 
 * look for the evidence,
 * take in multiple points of view and published research,
 * produce a policy proposal that meets the manifesto principles.
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
+
+## Communications Manager
+
+When we run campaigns, getting the message out is one of the most important things. Working with the campaign manager, a communications manager will;
+
+* collate a list of press contacts,
+* write and distribute press releases,
+* get and stay in touch with relevant journalists to help ensure we get adequate press coverage,
+* arrange interviews and hustings, where appropriate, for candidates,
+* co-ordinate social media strategy.
+
+Interested in this role? Let us know by e-mailing [info@somethingnew.org.uk](mailto:info@somethingnew.org.uk) with a little bit about you, any relevant experience and why you're interested. We **will** respond!
