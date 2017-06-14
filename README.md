@@ -12,6 +12,22 @@ The site is complex because it tries to be highly data-driven. We make heavy use
 
 However, a lot of the files in the site are just plain Jekyll, so there's nothing too terrifying in them. Most logic is done in layouts, and the markdown/HTML files themselves tend to be kept fairly clean if at all possible.
 
+### Building the site locally
+
+You will ideally need Ruby `2.4.1`, though other Rubies >=2 should work. We recommend using [rbenv](https://github.com/rbenv/rbenv#installation) to manage Ruby versions.
+
+Install dependencies with `bundle install`.
+
+To build the site, run `bundle exec jekyll build`. This will create a statically compiled version in `_site`.
+
+To preview the site and develop live, run `bundle exec jekyll serve`. Then visit [localhost:4000](http://localhost:4000) to see the site in a browser.
+
+NOTE: because of the various complexities of the site, it's *slow* to build. It takes around 20 seconds on a Macbook Pro. We're trying to make it faster.
+
+### Deploying changes
+
+Because the site uses GitHub pages, there is no deployment step. Just push the changed source code (though ideally do a pull request for changes so they can be reviewed), and GitHub will do the rest.
+
 ## Submodules
 
 There are four submodules in this project. To update them to the latest content, run `git submodule update --remote` and commit the result.
