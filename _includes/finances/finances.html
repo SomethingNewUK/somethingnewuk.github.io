@@ -1,5 +1,5 @@
 <p class='alert alert-info'>
-  Income rows with unnamed suppliers are where we are awaiting explicit 
+  Income rows with unnamed or hashed donors are where we are awaiting explicit 
   permission to publish a donor's name.
 </p>
 
@@ -15,20 +15,22 @@
     <table class='table table-striped'>
       <tr>
         <th>Date</th>
-        <th>Buyer</th>
+        <th>Donor</th>
         <th>Supplier</th>
         <th>Description</th>
-        <th>Amount (GBP)</th>
+        <th>Value (GBP)</th>
+        <th>Cash (GBP)</th>
         <th>Balance (GBP)</th>
       </tr>
   {% endif %}
   <tr>
     <td>{{row.date}}</td>
-    <td>{% if row.buyer_uri and row.buyer_uri != "" %}<a href='{{row.buyer_uri}}'>{% endif %}{{row.buyer}}{% if row.buyer_uri and row.buyer_uri != "" %}</a>{% endif %}</td>
+    <td>{{row.donor}}</td>
     <td>{% if row.supplier_uri and row.supplier_uri != "" %}<a href='{{row.supplier_uri}}'>{% endif %}{{row.supplier}}{% if row.supplier_uri and row.supplier_uri != "" %}</a>{% endif %}</td>
-    <td><a href='http://www.unspsc.org/search-code/default.aspx?CSS={{row.unspsc_code}}'>{{row.description}}</a></td>
-    <td style='text-align: right; font-family: monospace'>{{row.amount | money_without_currency }}</td>
-    <td style='text-align: right; font-family: monospace'>{{row.balance | money_without_currency }}</td>
+    <td>{% if row.unspsc_code %}<a href='http://www.unspsc.org/search-code/default.aspx?CSS={{row.unspsc_code}}'>{% endif %}{{row.description}}{% if row.unspsc_code %}</a>{% endif %}</td>
+    <td style='text-align: right; font-family: monospace'>{{row.value | money_without_currency }}</td>
+    <td style='text-align: right; font-family: monospace'>{{row.cash | money_without_currency }}</td>
+    <td style='text-align: right; font-family: monospace'>{{row.cash_balance | money_without_currency }}</td>
   </tr>
   {% if forloop.last %}
     </table>
