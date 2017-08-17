@@ -1,4 +1,4 @@
-require 'html-proofer'
+require 'jekyll/test/tasks'
 
 namespace :update do
   task :submodules do
@@ -6,28 +6,11 @@ namespace :update do
   end
 end
 
-task :rebuild do
-  sh "rm -rf _site"
-  sh "bundle exec jekyll build"
-end
-
-task :htmlproofer => :rebuild do
-  ignored = [
-    "https://votebot.openpolitics.org.uk",
-    "http://somethingnew-piwik.herokuapp.com"
-  ]
-  HTMLProofer.check_directory("./_site", 
-    typhoeus: {ssl_verifypeer: false, timeout: 30}, 
-    url_ignore: ignored, 
-    check_html: true, 
-    assume_extension: ".html").run
-end
-
 task :spellcheck do
   sh "mdspell . -c .mdspell"
 end
 
 require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new(:spec => :rebuild)
+RSpec::Core::RakeTask.new(:spec => "jekyll:rebuild")
 
-task :default => [:spec, :htmlproofer]
+task :default => [:spec, 'jekyll:check']
