@@ -1,7 +1,6 @@
 [submodule "_data/popolo-data"]
 	path = _data/popolo-data
 	url = https://github.com/SomethingNewUK/popolo-data.git
-	branch = gh-pages
 [submodule "_data/finances"]
 	path = _data/finances
 	url = https://github.com/SomethingNewUK/finances.git
