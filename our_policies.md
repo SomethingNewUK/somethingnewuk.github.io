@@ -36,7 +36,7 @@ British citizens' fundamental rights, and the basic rules for operation of the B
 
 Ideologically driven austerity has punished many of the weakest and most vulnerable for conditions that they didn't cause. We need to get money into the real economy, and reduce inequality.
 
-We want to make the [minimum wage equal to the living wage](/manifesto/economy.html#minimum-wage), and link the two together so that a full-time job will always pay enough to live on. We would also make the [minimum wage tax-free](/manifesto/economy.html#income-tax). We would work with the EU to remove [regressive taxation such as VAT](/manifesto/economy.html#vat) that falls most heavily on the poor.
+We want to make the [minimum wage equal to the living wage](/manifesto/economy.html#minimum-wage), and link the two together so that a full-time job will always pay enough to live on. We would also make the [minimum wage tax-free](/manifesto/economy.html#income-tax). We would work with the EU to remove [regressive taxation such as VAT](/manifesto/economy.html#replacement-of-vat-with-a-luxury-goods-tax) that falls most heavily on the poor.
 
 We will investigate if a [universal basic income](/manifesto/economy.html#basic-income) is possible, so that instead of a complex benefits system, everyone in the country receives a certain level of income, which they can then earn more on top of.
 
