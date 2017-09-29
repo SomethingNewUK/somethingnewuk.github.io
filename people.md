@@ -11,7 +11,6 @@ We know we're not a diverse group, and that's just one more reason why we want y
 <div class='row'>
   {% for p in site.people %}
     {% if p.popolo_data_id %}
-      {% assign id =  %}
       {% include headshot.html person_id=p.popolo_data_id link=p.url %}
     {% endif %}
   {% endfor %}
