@@ -4,7 +4,7 @@ authors:
   - philip-john
 featured_image:
   url: https://farm5.staticflickr.com/4228/34407457350_bf15c25c2f_z_d.jpg
-  alt: "We'll protect the environment"
+  alt: "We&apos;ll protect the environment"
 ---
 
 {: .tldr}
