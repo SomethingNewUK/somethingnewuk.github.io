@@ -76,7 +76,7 @@ defaults:
     values:
       layout: "manifesto_policy"
       editable: true
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
