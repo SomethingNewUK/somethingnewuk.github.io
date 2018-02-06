@@ -1,7 +1,7 @@
 ---
 title: Lichfield Stowe By-election
 redirect_from: /lichfield-stowe.html
-candidacy_id: "locallichfield-stowe2018-02-22"
+candidacy_id: "locallichfield-district-stowe2018-02-22"
 ---
 
 ## Meet Philip John
