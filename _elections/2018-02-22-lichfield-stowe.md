@@ -16,7 +16,7 @@ My decision to stand as a candidate was based on a desire for people to have mor
 
 Instead of a manifesto, Phil wants residents to tell him what their priorities are, and define the issues that he'll focus on as local councillor. He's delivering postcards to voters for them to complete with their priorities, or people can call (07516 816273), [e-mail](mailto:philip.john@somethingnew.org.uk) him or [book a meeting](https://calendly.com/philipjohn) to talk in person.
 
-Even better, local people can simply use the poll below to vote for priorities, or add their own.
+Even better, local people can simply use the poll below to vote for priorities, or add their own by [commenting here](https://polldaddy.com/poll/9932416/?view=results).
 
 <script type="text/javascript" charset="utf-8" src="https://secure.polldaddy.com/p/9932416.js"></script>
 <noscript><a href="https://polldaddy.com/poll/9932416/">What matters to you locally?</a></noscript>
