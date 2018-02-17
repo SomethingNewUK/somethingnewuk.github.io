@@ -13,6 +13,8 @@
   title: Lichfield city centre business to host coffee with a candidate event ahead of by-election
   publication: Lichfield Live
   date: "2018-02-09"
+  election: "local.lichfield-district.stowe.2018-02-22"
+  candidacy: "local.lichfield-district.stowe.2018-02-22"
 -
   url: https://www.birminghammail.co.uk/news/new-political-movement-wants-your-14257766
   title: New political movement wants your help to 'shake up' Birmingham City Council
@@ -28,36 +30,8 @@
   title: Lichfield by-election candidate insists he wants to listen to voters rather than imposing his views
   publication: Lichfield Live
   date: "2018-02-03"
--
-  url: http://www.bbc.co.uk/news/election-2017-39926534
-  title: "General election 2017: Unusual manifesto pledges"
-  publication: BBC News
-  date: "2017-06-07"
--
-  url: https://uk.news.yahoo.com/britain-apos-smallest-parties-meet-050016218.html
-  title: "Britain's smallest parties: Meet Something New"
-  publication: Press Association
-  date: "2017-06-03"
--
-  url: http://www.wscountytimes.co.uk/news/politics/candidates-grilled-on-brexit-and-school-funding-1-7989324
-  title: Candidates grilled on Brexit and school funding
-  publication: West Sussex County Times
-  date: "2017-06-01"
--
-  url: https://www.acast.com/partlypoliticalbroadcast/partlypoliticalbroadcast-episode62-30thmay2017?autoplay
-  title: Partly Political Broadcast - Episode 62
-  publication: Partly Political Broadcast
-  date: "2017-05-30"
--
-  url: https://linuxformat.com/archives?issue=223
-  title: Manifesto Of The People
-  publication: "Linux Format #223"
-  date: "2017-05-01"
--
-  url: http://www.hdcf.org.uk/horsham-cycle-debate-full-report/
-  title: Horsham Cycle Debate – full report
-  publication: "Horsham District Cycling Forum"
-  date: "2017-04-28"
+  election: "local.lichfield-district.stowe.2018-02-22"
+  candidacy: "local.lichfield-district.stowe.2018-02-22"
 -
   url: https://somethingnew.org.uk/images/coverage/2017-04-27.wsct.election_debate.jpg
   title: Election candidates quizzed on creating safe space for cycling
