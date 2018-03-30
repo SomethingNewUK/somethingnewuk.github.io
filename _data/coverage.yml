@@ -13,6 +13,8 @@
   title: Lichfield city centre business to host coffee with a candidate event ahead of by-election
   publication: Lichfield Live
   date: "2018-02-09"
+  election: "local.lichfield-district.stowe.2018-02-22"
+  candidacy: "local.lichfield-district.stowe.2018-02-22"
 -
   url: https://www.birminghammail.co.uk/news/new-political-movement-wants-your-14257766
   title: New political movement wants your help to 'shake up' Birmingham City Council
@@ -23,11 +25,15 @@
   title: These candidates are standing in Lichfield district and city council by-elections
   publication: BirminghamLive
   date: "2018-02-07"
+  election: "local.lichfield-district.stowe.2018-02-22"
+  candidacy: "local.lichfield-district.stowe.2018-02-22"
 -
   url: https://lichfieldlive.co.uk/2018/02/03/lichfield-by-election-candidate-insists-he-wants-to-listen-to-voters-rather-than-imposing-his-views/
   title: Lichfield by-election candidate insists he wants to listen to voters rather than imposing his views
   publication: Lichfield Live
   date: "2018-02-03"
+  election: "local.lichfield-district.stowe.2018-02-22"
+  candidacy: "local.lichfield-district.stowe.2018-02-22"
 -
   url: http://www.bbc.co.uk/news/election-2017-39926534
   title: "General election 2017: Unusual manifesto pledges"
