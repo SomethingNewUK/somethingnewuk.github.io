@@ -30,4 +30,6 @@ Officers:
 
 Registered Address: 14 Greenfinch Way, Horsham, West Sussex, RH12 5HB
 
-We do not have an official membership scheme at this point.
+### Data Protection
+
+We take great care with your personal data. Our [personal data usage policy](/about/documents/personal-data-usage-policy/) explains what we store and why.
