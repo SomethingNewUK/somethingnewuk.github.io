@@ -1,5 +1,5 @@
 ---
-title: The future of nations 
+title: The future of nations
 authors:
   - james-smith
 featured_image:
@@ -15,12 +15,12 @@ Individual nations are becoming less relevant as we create communities and busin
 The upcoming EU referendum is stirring up a lot of thinking about our place in the world. For me, Millicent Scott on Twitter put it very well:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">I want to be part of a post-national world, not limited by pesky national borders.<a href="https://twitter.com/hashtag/BritIn?src=hash">#BritIn</a></p>&mdash; Millicent Scott (@MissMillicent) <a href="https://twitter.com/MissMillicent/status/701003107761844224">February 20, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8" data-proofer-ignore></script>
 
 I think that as we enter the network age, transition to a post-national world is already underway. It's just that our institutions haven't quite caught up:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">We’re already in one, but the people who own the borders haven’t realised yet :) <a href="https://t.co/OhcFo8q75n">https://t.co/OhcFo8q75n</a></p>&mdash; James Smith (@Floppy) <a href="https://twitter.com/Floppy/status/701014372139843584">February 20, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8" data-proofer-ignore></script>
 
 The network fundamentally changes how we interact. In the past, the people close to you were your kin; those with whom you had most in common. Now, that's not the case. Geographical proximity is now just one of many reasons to form communities, and arguably not a particularly important one.
 

@@ -5,15 +5,15 @@
     <meta charset='utf-8' />
     <meta name="description" content="{{page.description}}" />
     <meta name="keywords" content="{{page.keywords}}" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-MI32KR77SgI9QAPUs+6R7leEOwtop70UsjEtFEezfKnMjXWx15NENsZpfDgq8m8S" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <meta name='viewport' content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="icon" type="image/png" href="/images/favicon64.png"/>
     <title>{{ site.title }} - {{ page.title }}</title>
-    
+
     {% include social.html %}
-    
+
   </head>
 
   <body>
@@ -21,7 +21,7 @@
     <header>
       {% include navbar.html %}
     </header>
-    
+
     {% if page.show_hero == true %}
       {% include hero.html %}
     {% endif %}
@@ -33,7 +33,7 @@
     {% if page.show_hero == true %}
 
       {% include principles.html %}
-      
+
       {% include testimonials.html %}
 
       <footer style='margin-top: 0px'>
@@ -45,9 +45,9 @@
         {% include footer.html %}
       </footer>
     {% endif %}
-    
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     {% include analytics.html %}
 

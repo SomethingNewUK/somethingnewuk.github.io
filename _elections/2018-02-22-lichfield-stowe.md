@@ -18,7 +18,7 @@ Instead of a manifesto, Phil wants residents to tell him what their priorities a
 
 Even better, local people can simply use the poll below to vote for priorities, or add their own by [commenting here](https://polldaddy.com/poll/9932416/?view=results).
 
-<script type="text/javascript" charset="utf-8" src="https://secure.polldaddy.com/p/9932416.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://secure.polldaddy.com/p/9932416.js" data-proofer-ignore></script>
 <noscript><a href="https://polldaddy.com/poll/9932416/">What matters to you locally?</a></noscript>
 
 ## How will Phil represent you?
