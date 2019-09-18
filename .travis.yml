@@ -2,7 +2,9 @@
 language: ruby
 sudo: false
 cache: bundler
-script: bundle exec rake $TASK
+before_install:
+- gem update --system
+- gem install bundler
 env:
 - TASK='default'
 - TASK='jekyll:check_external_links'
@@ -12,6 +14,7 @@ matrix:
   allow_failures:
   - env: TASK='jekyll:check_external_links'
   - env: TASK='spellcheck'
+script: bundle exec rake $TASK
 addons:
   apt:
     packages:
