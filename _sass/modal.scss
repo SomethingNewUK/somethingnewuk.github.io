@@ -1,0 +1,18 @@
+.modal-full {
+  width: 90vw;
+  height: 90vh;
+}
+
+#bigBlackBanner .modal-body {
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: "Oswald","Helvetica Narrow","Arial Narrow",sans-serif;
+  text-transform: uppercase;
+  padding-top: 5vh;
+  font-size: calc(22px + 6 * ((100vw - 320px) / 480));
+
+  p {
+    padding: 5vh;
+  }
+}
