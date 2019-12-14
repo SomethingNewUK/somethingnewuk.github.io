@@ -24,7 +24,7 @@ Examples of unacceptable behaviour by participants include:
 
 * The use of sexualised language or imagery and unwelcome sexual attention or
 advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
+* Trolling, insulting/derogatory comments, and personal attacks
 * Public or private harassment
 * Publishing others' private information, such as a physical or electronic
   address, without explicit permission
