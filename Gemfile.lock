@@ -29,7 +29,7 @@ GEM
     execjs (2.7.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.13.0)
+    ffi (1.13.1)
     ffi-aspell (1.1.0)
       ffi
     forwardable-extended (2.6.0)
