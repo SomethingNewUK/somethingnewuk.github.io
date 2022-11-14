@@ -1,0 +1,26 @@
+name: test
+
+on:
+- push
+- pull_request
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - name: Check build
+      run: bundle exec rake jekyll:check
+  links:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - name: Check external links
+      continue-on-error: true
+      run: bundle exec rake jekyll:check_external_links
