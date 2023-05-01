@@ -219,7 +219,7 @@ GEM
       ffi-aspell (~> 1.1)
       kramdown (~> 1.8)
     mercenary (0.3.6)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.2)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
