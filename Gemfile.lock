@@ -282,7 +282,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.9)
+    unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
     webrick (1.8.1)
     yell (2.2.2)
