@@ -2,19 +2,20 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     {% for testimonial in site.data.testimonials %}
-      <li data-target="#carousel" data-slide-to="{{forloop.index0}}" {% if forloop.first %} class="active"{% endif %}></li>
+    <li data-target="#carousel" data-slide-to="{{forloop.index0}}" {% if forloop.first %} class="active" {% endif %}>
+    </li>
     {% endfor %}
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     {% for testimonial in site.data.testimonials %}
-      <div class="item{% if forloop.first %} active{% endif %}" style='background: #7f7f7f; height: 180px'>
-        <div class="carousel-text">
-          <div>"{{ testimonial.quote }}"</div>
-          <caption><small><em>{{ testimonial.name }}</em></small></caption>
-        </div>
+    <div class="item{% if forloop.first %} active{% endif %}" style='background: #7f7f7f; height: 180px'>
+      <div class="carousel-text">
+        <div>"{{ testimonial.quote }}"</div>
+        <small><em>{{ testimonial.name }}</em></small>
       </div>
+    </div>
     {% endfor %}
   </div>
 
