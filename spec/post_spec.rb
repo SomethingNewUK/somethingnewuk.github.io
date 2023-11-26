@@ -1,9 +1,9 @@
 describe "posts" do
-  
+
   it "should have a url under /news with the date" do
-    expect(File.exists?("_site/news/2016/02/20/euref-yes-to-europe.html")).to eq true
+    expect(File.exist?("_site/news/2016/02/20/euref-yes-to-europe.html")).to eq true
   end
-  
+
   it "should list multiple author names" do
     File.open("_site/news/2016/02/20/euref-yes-to-europe.html") do |file|
       html = file.read
