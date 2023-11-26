@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "3.1.1"
+ruby "3.2.2"
 
 gem 'github-pages'
 
@@ -10,5 +10,4 @@ end
 
 group :test do
   gem 'jekyll-test'
-  gem 'mdspell'
 end
