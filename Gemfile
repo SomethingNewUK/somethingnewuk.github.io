@@ -10,5 +10,4 @@ end
 
 group :test do
   gem 'jekyll-test'
-  gem 'mdspell'
 end
