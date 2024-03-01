@@ -26,8 +26,7 @@ GEM
     diff-lcs (1.5.1)
     dnsruby (1.70.0)
       simpleidn (~> 0.2.1)
-    drb (2.2.0)
-      ruby2_keywords
+    drb (2.2.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -273,7 +272,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.1)
-    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass (3.7.4)
